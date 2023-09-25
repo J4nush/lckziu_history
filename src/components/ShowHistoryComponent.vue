@@ -2,17 +2,14 @@
 import Carousel from 'primevue/carousel';
 import Galleria from "primevue/galleria";
 import {ref} from 'vue'
-
+import Image from 'primevue/image';
 defineProps<{
   items?: Array<JSON>
 }>()
 const activeIndex = ref(0);
 
 const displayCustom = ref(false);
-const imageClick = (index) => {
-  activeIndex.value = index;
-  displayCustom.value = true;
-};
+
 </script>
 
 <template>
@@ -28,30 +25,50 @@ const imageClick = (index) => {
         </span>
       </div>
       <div  v-if="slotProps.data.images.length" class="basis-1/2 max-h-[70vh] h-full flex  aspect-auto justify-center" :class="slotProps.data.images.length == 1 ? 'items-center pl-5 pr-5' : ''">
-        <Galleria :value="slotProps.data.images"  :numVisible="5" v-if="slotProps.data.images.length > 1"
+        <Galleria aathumbnailsPosition="top" :circular="true" :value="slotProps.data.images"  :numVisible="slotProps.data.images.length <= 4 ? slotProps.data.images.length : 4 " v-if="slotProps.data.images.length > 1"
                   containerStyle="max-width: 80%"
+                  :showThumbnails="false"
+                  indicatorsPosition="top"
+                  :showIndicators="true"
+                  :ashowThumbnailNavigators="slotProps.data.images.length <= 4 ? false : true"
+                  :showItemNavigators="true"
                   :pt="{
+                    previousItemButton: {
+                      class: 'z-10'
+                    },
           thumbnailItemsContainer: {
-            class: 'max-h-[15vh] flex items-center',
+            class: 'max-h-[10vh] flex items-center content-center',
+          },
+          thumbnailItems:{
+            class: 'content-center'
           },
           thumbnailItem: {
-            class: 'pl-2 pr-2 max-h-[15vh] aspect-auto',
+            class: 'pl-2 pr-2 max-h-[10vh] aspect-auto',
           },
           thumbnailItemContent: {
-            class: 'max-h-[15vh] aspect-auto',
+            class: 'max-h-[10vh] aspect-auto',
           },
                   }"
         >
           <template #item="imagesProps">
 <!--            {{imagesProps.item}}-->
-            <img  class="aspect-auto max-h-[50vh]" :src="imagesProps.item.replace(/ /g, '%20').replace('..', '/src')"   />
+            <Image  class="aspect-auto max-h-[50vh] z-0" :src="imagesProps.item.replace(/ /g, '%20').replace('..', '/src')"
+                    :pt="{
+              image:{class: 'max-h-[50vh]'}
+                    }"
+                    preview />
           </template>
-          <template #thumbnail="imagesProps" v-if="slotProps.data.images.length > 1">
-            <img class="aspect-auto max-h-[15vh]" :src="imagesProps.item.replace(/ /g, '%20').replace('..', '/src')"  />
-          </template>
+<!--          <template #thumbnail="imagesProps" v-if="slotProps.data.images.length > 1">-->
+<!--            <img class="aspect-auto max-h-[10vh]" :src="imagesProps.item.replace(/ /g, '%20').replace('..', '/src')"  />-->
+<!--          </template>-->
         </Galleria>
         <div v-else clss="h-full w-full flex justify-center items-center pl-5 pr-5">
-          <img class=" aspect-auto max-h-[70vh]" :src="slotProps.data.images[0].replace(/ /g, '%20').replace('..', '/src')" />
+          <Image class=" aspect-auto max-h-[70vh]" :src="slotProps.data.images[0].replace(/ /g, '%20').replace('..', '/src')" :pt="{
+              image:{class: 'max-h-[70vh]'},
+              toolbar:{class:'z-10'},
+              preview: {class: 'max-h-[85vh]'}
+                    }"
+                 preview/>
         </div>
 
 

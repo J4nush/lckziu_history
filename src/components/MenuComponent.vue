@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router';
+import { useRouter } from 'vue-router';
 import Menubar from 'primevue/menubar';
 import Breadcrumb from 'primevue/breadcrumb';
 import {ref} from 'vue'
-
+const router = useRouter()
 defineProps<{
   items?: Array<JSON>
 }>()
@@ -19,11 +19,12 @@ const home = ref({
 <template>
 <Menubar  class="pl-3 pt-2">
     <template #start>
-        <span class="flex flex-row content-center gap-3">
+        <span class="flex flex-row content-center items-center gap-3">
           <div class="flex content-center">
-        <img alt="logo" src="../assets/lckziu_logo.png" class="h-12 inline" />
-        </div>
-     <Breadcrumb :home="home" :model="items" >
+        <img alt="logo" src="../assets/lckziu_logo.png" class="h-20 inline cursor-pointer" @click="router.push('/')"/>
+
+          </div>
+     <Breadcrumb :home="home" :model="items" class="h-fit">
        
         </Breadcrumb>
     </span>
