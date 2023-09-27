@@ -10,6 +10,7 @@ import PrimeVue from 'primevue/config';
 import App from './App.vue'
 import router from './router'
 import Tooltip from 'primevue/tooltip';
+import  globalState from "@/globalState";
 
 
 
@@ -17,6 +18,7 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+app.provide('globalState', globalState)
 app.use(PrimeVue, { unstyled: false});
 app.directive('tooltip', Tooltip);
 app.mount('#app')

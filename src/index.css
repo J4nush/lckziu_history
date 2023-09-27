@@ -4,7 +4,7 @@
 
 .v-enter-active,
 .v-leave-active {
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .v-enter-from,

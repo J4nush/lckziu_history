@@ -4,6 +4,8 @@ import MenuComponent from "@/components/MenuComponent.vue";
 import Button from "primevue/button";
 import ShowHistoryComponent from "@/components/ShowHistoryComponent.vue";
 import BackButton from "@/components/BackButton.vue";
+import globalState from "@/globalState";
+import LoadingScreen from "@/components/LoadingScreen.vue";
 
 const items = ref([
   {
@@ -101,6 +103,11 @@ const history = ref(
 </script>
 
 <template>
+  <transition>
+    <template v-if="globalState.loading">
+      <LoadingScreen />
+    </template>
+  </transition>
 <MenuComponent :items="items"/>
   <BackButton to="/magnoliowa" />
   <ShowHistoryComponent :items="history.texts_with_images"/>

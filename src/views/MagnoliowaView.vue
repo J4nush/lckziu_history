@@ -6,6 +6,8 @@ import Tooltip from 'primevue/tooltip';
 import Button from 'primevue/button'
 import {useRouter} from 'vue-router'
 import BackButton from "@/components/BackButton.vue";
+import LoadingScreen from "@/components/LoadingScreen.vue";
+import globalState from "@/globalState";
 
 const router = useRouter()
 const home = ref({
@@ -13,6 +15,20 @@ const home = ref({
     icon: 'pi pi-home',
     to: '/',
 });
+
+const load = ref(false)
+
+const changeLoad = () => {
+  globalState.value.loading = !globalState.value.loading
+}
+
+const goToView = (path)=> {
+  changeLoad()
+  setTimeout(function() {
+    router.push(path)
+  }, 500);
+
+}
 
 const items = ref([
     {
@@ -36,13 +52,18 @@ const events = ref([
 
 
 <template>
+  <transition>
+    <template v-if="globalState.loading">
+      <LoadingScreen />
+    </template>
+  </transition>
     <MenuComponent :items="items"/>
     <BackButton to="/"/>
 
   <main class="flex justify-center align-center pl-28 pr-28" style="min-height: 70vh;">
     <Timeline :value="events" layout="horizontal" align="top">
         <template #marker="slotProps">
-        <div class="p-4 marker-bg rounded-full cursor-pointer" v-tooltip="'Zobacz wiecej'" @click="()=>{router.push(slotProps.item?.to)}">
+        <div class="p-4 marker-bg rounded-full cursor-pointer" v-tooltip="'Zobacz wiecej'" @click="goToView(slotProps.item?.to)">
             <i class="pi pi-history" style="font-size: 3rem"></i>
         </div>
     </template>

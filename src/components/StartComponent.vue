@@ -4,13 +4,22 @@ import Card from 'primevue/card'
 import Divider from 'primevue/divider'
 import { ref } from 'vue'
 import MenuComponent from '../components/MenuComponent.vue'
+import globalState from "@/globalState";
+import LoadingScreen from "@/components/LoadingScreen.vue";
+
 const router = useRouter()
 const goToMagnolka = () => {
     router.push({ path: '/magnoliowa' })
-    console.log("elo")
 }
 </script>
 <template>
+
+  <transition>
+    <template v-if="globalState.loading">
+      <LoadingScreen />
+    </template>
+  </transition>
+
     <MenuComponent :items="[]"/>
         <main>
             <div class="wrapper flex flex-col w-100 p-4">
@@ -40,7 +49,7 @@ const goToMagnolka = () => {
                 <Divider/>
                 <div class="big_block flex flex-row justify-center w-100">
                     
-                    <Card class="basis-1/2 text-center p-4 cursor-pointer" @click="goToMagnolka">
+                    <Card class="basis-1/2 text-center p-4 cursor-pointer rounded-full" @click="goToMagnolka">
                         <template #header>
                             <img alt="user header" class="big_header_image" src="../assets/lckziu_thumb.jpg" />
                         </template>

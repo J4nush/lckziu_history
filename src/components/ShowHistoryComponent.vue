@@ -1,26 +1,19 @@
 <script setup lang="ts">
 import Carousel from 'primevue/carousel';
 import Galleria from "primevue/galleria";
-import {ref, watch} from 'vue'
+import {onMounted, ref, toRef, watch} from 'vue'
 import Image from 'primevue/image';
-defineProps<{
+const props = defineProps<{
   items?: Array<JSON>
 }>()
-const activeIndex = ref(0);
-
-const displayCustom = ref(false);
-const totalImages = ref(null);
-watch(items, async ()=>{
-  if(items?.length > 0)
-  {totalImages.value = items?.reduce((sum, item) => sum + item.images.length, 0))}
+const emit = defineEmits(['loaded'])
+onMounted(()=>{
+  setTimeout(function() {
+    emit('loaded')
+  }, 500);
 })
-const loadedImages = ref(0);
-const imageLoaded = () =>{
-    loadedImages.value++
-    if (loadedImages.value == totalImages.value){
-      $emit('imagesLoaded', true)
-    }
-}
+
+
 </script>
 
 <template>
@@ -67,19 +60,19 @@ const imageLoaded = () =>{
                     :pt="{
               image:{class: 'max-h-[50vh]'}
                     }"
-                    preview @load="imageLoaded()"/>
+                    preview />
           </template>
 <!--          <template #thumbnail="imagesProps" v-if="slotProps.data.images.length > 1">-->
 <!--            <img class="aspect-auto max-h-[10vh]" :src="imagesProps.item.replace(/ /g, '%20').replace('..', '/src')"  />-->
 <!--          </template>-->
         </Galleria>
-        <div v-else clss="h-full w-full flex justify-center items-center pl-5 pr-5">
+        <div v-else class="h-full w-full flex justify-center items-center pl-5 pr-5">
           <Image class=" aspect-auto max-h-[70vh]" :src="slotProps.data.images[0].replace(/ /g, '%20').replace('..', '/src')" :pt="{
               image:{class: 'max-h-[70vh]'},
               toolbar:{class:'z-10'},
               preview: {class: 'max-h-[85vh]'}
                     }"
-                 preview @load="imageLoaded()"/>
+                 preview />
         </div>
 
 

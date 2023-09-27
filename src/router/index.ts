@@ -4,6 +4,7 @@ import MagnoliowaView from '../views/MagnoliowaView.vue'
 import SnMFirstView from "@/views/SnMFirstView.vue";
 import StartComponent from '@/components/StartComponent.vue'
 import SnMSecondView from "@/views/SnMSecondView.vue";
+import globalState from "@/globalState";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,18 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     }
   ]
+})
+
+router.beforeEach((to, form, next) => {
+  globalState.value.loading = true;
+  setTimeout(()=>{
+    next()
+  }, 500)
+})
+router.afterEach(()=>{
+  setTimeout(()=>{
+    globalState.value.loading = false;
+  }, 500)
 })
 
 export default router
