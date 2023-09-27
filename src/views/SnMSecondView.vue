@@ -4,6 +4,7 @@ import MenuComponent from "@/components/MenuComponent.vue";
 import Button from "primevue/button";
 import ShowHistoryComponent from "@/components/ShowHistoryComponent.vue";
 import BackButton from "@/components/BackButton.vue";
+import LoadingScreen from "@/components/LoadingScreen.vue";
 
 const items = ref([
   {
@@ -14,7 +15,7 @@ const items = ref([
     label: "1959-1969 - Technikum Chemiczne"
   }
 ])
-
+const load = ref(false)
 const history = ref(
     {
       "parent_folder": "../assets/schools/SnM/1959-1969 - Technikum Chemiczne",
@@ -142,13 +143,16 @@ const history = ref(
 )
 
 </script>
-
 <template>
-<MenuComponent :items="items"/>
-  <BackButton to="/magnoliowa" />
-  <ShowHistoryComponent :items="history.texts_with_images"/>
-</template>
+  <LoadingScreen v-if="!loaded"/>
 
+<MenuComponent v-else :items="items"/>
+
+  <LoadingScreen/>
+  <BackButton to="/magnoliowa" />
+  <ShowHistoryComponent :items="history.texts_with_images" @imagesLoaded="loaded = true"/>
+
+</template>
 <style scoped>
 
 </style>

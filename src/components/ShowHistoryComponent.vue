@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Carousel from 'primevue/carousel';
 import Galleria from "primevue/galleria";
-import {ref} from 'vue'
+import {ref, watch} from 'vue'
 import Image from 'primevue/image';
 defineProps<{
   items?: Array<JSON>
@@ -9,7 +9,18 @@ defineProps<{
 const activeIndex = ref(0);
 
 const displayCustom = ref(false);
-
+const totalImages = ref(null);
+watch(items, async ()=>{
+  if(items?.length > 0)
+  {totalImages.value = items?.reduce((sum, item) => sum + item.images.length, 0))}
+})
+const loadedImages = ref(0);
+const imageLoaded = () =>{
+    loadedImages.value++
+    if (loadedImages.value == totalImages.value){
+      $emit('imagesLoaded', true)
+    }
+}
 </script>
 
 <template>
@@ -56,7 +67,7 @@ const displayCustom = ref(false);
                     :pt="{
               image:{class: 'max-h-[50vh]'}
                     }"
-                    preview />
+                    preview @load="imageLoaded()"/>
           </template>
 <!--          <template #thumbnail="imagesProps" v-if="slotProps.data.images.length > 1">-->
 <!--            <img class="aspect-auto max-h-[10vh]" :src="imagesProps.item.replace(/ /g, '%20').replace('..', '/src')"  />-->
@@ -68,7 +79,7 @@ const displayCustom = ref(false);
               toolbar:{class:'z-10'},
               preview: {class: 'max-h-[85vh]'}
                     }"
-                 preview/>
+                 preview @load="imageLoaded()"/>
         </div>
 
 
