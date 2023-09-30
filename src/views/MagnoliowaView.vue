@@ -63,7 +63,7 @@ const events = ref([
   <main class="flex justify-center align-center pl-28 pr-28" style="min-height: 70vh;">
     <Timeline :value="events" layout="horizontal" align="top">
         <template #marker="slotProps">
-        <div class="p-4 marker-bg rounded-full cursor-pointer" v-tooltip="'Zobacz wiecej'" @click="goToView(slotProps.item?.to)">
+        <div class="p-4 marker-bg rounded-full cursor-pointer hover:animate-pulse" v-tooltip="'Zobacz wiecej'" @click="goToView(slotProps.item?.to)">
             <i class="pi pi-history" style="font-size: 3rem"></i>
         </div>
     </template>

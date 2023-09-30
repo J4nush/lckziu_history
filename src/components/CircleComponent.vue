@@ -1,12 +1,14 @@
-<template>
+<template >
 <div :class="small ? 'h-[25vh]' : 'h-full'" class="aspect-square rounded-full circual-card flex items-center justify-center
  text-center"
-    :style="'background-image: linear-gradient( rgba(30, 115, 190, .5), rgba(30, 115, 190, .5)), url('+image+')'">
-    <span class="max-w-[80%] text-white ">{{schoolName}}</span></div>
+    >
+  <div class="background rounded-full" :style="'background-image: linear-gradient( rgba(30, 115, 190, .5), rgba(30, 115, 190, .5)), url('+image+')'"></div>
+
+  <span :class="small ? 'text-xl' : 'text-4xl'" class="max-w-[80%] text-white school-name">{{schoolName}}</span></div>
 </template>
 
 <script setup lang="ts">
-import {defineProps} from "vue"
+
 const props = defineProps<{
   image: string,
   schoolName: string,
@@ -16,13 +18,28 @@ const props = defineProps<{
 </script>
 
 <style scoped>
-.circual-card{
+.circual-card {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-size: cover;
   transition: .3s ease-in;
+  z-index: -1;
 }
-.circual-card:hover{
+
+.circual-card:hover .background {
   filter: brightness(50%);
   transition: .3s ease-out;
   box-shadow: 0 0 3em rgb(30, 115, 190);
+}
+
+.school-name {
+  color: white;
 }
 </style>
