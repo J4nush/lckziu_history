@@ -19,6 +19,7 @@ import SnDSecondView from "@/views/SnDViews/SnDSecondView.vue";
 import SnDThirdView from "@/views/SnDViews/SnDThirdView.vue";
 import SnDFourthView from "@/views/SnDViews/SnDFourthView.vue";
 import SnDFifthView from "@/views/SnDViews/SnDFifthView.vue";
+import ZSPiTView from "@/views/ZSPiTView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -42,6 +43,11 @@ const router = createRouter({
       path: '/snd',
       name: 'Zespół Szkół przy ulicy Długosza',
       component: SnDView
+    },
+    {
+      path: '/zspit',
+      name: 'Zespół Szkół Pedagogicznych i Technicznych',
+      component: ZSPiTView
     },
     {
       path: '/magnoliowa/1953',

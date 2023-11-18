@@ -65,7 +65,7 @@ const events = ref([
         </div>
     </template>
     <template #content="slotProps" >
-        <p class="absolute" style="">
+        <p class="absolute text-white" style="">
         {{ slotProps.item.data }}
         </p>
 
@@ -75,6 +75,6 @@ const events = ref([
 </template>
 <style scoped>
 .marker-bg{
-    background-color:  rgba(1, 105, 165, .5);
+    background-color:  rgba(1, 105, 165, 1);
 }
 </style>
