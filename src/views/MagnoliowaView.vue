@@ -32,7 +32,7 @@ const goToView = (path)=> {
 
 const items = ref([
     {
-        label: "magnoliowa",
+        label: "Szkoła na ul. Magnoliowej 8",
         to: "/magnoliowa"
     }
 ])
@@ -40,10 +40,10 @@ const items = ref([
 const events = ref([
     {data: '1953-1959', to: '/magnoliowa/1953'},
     {data: '1959-1969', to: '/magnoliowa/1959'},
-    {data: '1969-1971'},
-    {data: '1971-1998'},
-    {data: '1998-2014'},
-    {data: '2014+'}
+    {data: '1969-1971', to: '/magnoliowa/1969'},
+    {data: '1971-1998', to: '/magnoliowa/1971'},
+    {data: '1998-2014', to: '/magnoliowa/1998'},
+    {data: '2014+', to: '/magnoliowa/2014'}
 ]);
 
 </script>

@@ -23,8 +23,8 @@ onMounted(()=>{
 
     <template #item="slotProps">
       <div class="flex flex-row max-h-[80vh] h-full">
-      <div :class="slotProps.data.images.length ? 'basis-1/2 border-r-2 pl-5 pr-5' : ''" class="text-center flex justify-center items-center pl-10 pr-10">
-        <span>
+      <div :class="slotProps.data.images.length ? 'basis-1/2 border-r-2 pl-5 pr-5' : ''" class="text-center flex justify-center items-center pl-10 pr-10 w-full">
+        <span class="w-full">
         {{ slotProps.data.text }}
         </span>
       </div>
