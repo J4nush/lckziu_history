@@ -54,7 +54,6 @@ const router = createRouter({
       name: '1953-1959 - Technikum Gospodarki Komunalnej',
       component: SnMFirstView
     },
-
     {
       path: '/magnoliowa/1959',
       name: '1959-1969 - Technikum Chemiczne',
@@ -62,7 +61,7 @@ const router = createRouter({
     },
     {
       path: '/magnoliowa/1969',
-      name: '1959-1969 - Technikum Chemiczne',
+      name: '1969-1971 - Technikum Mechaniczno-Energetyczne',
       component: SnMThirdView
     },
     {

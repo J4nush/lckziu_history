@@ -19,7 +19,7 @@ onMounted(()=>{
 <template>
 <!--  {{items}}-->
   <Carousel :value="items" :numVisible="1" :numScroll="1"
-             containerClass="w-full" contentClass="flex flex-row justify-between">
+             containerClass="w-full" contentClass="">
 
     <template #item="slotProps">
       <div class="flex flex-row max-h-[80vh] h-full">

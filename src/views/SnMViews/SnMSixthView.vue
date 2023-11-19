@@ -429,9 +429,7 @@ const history = ref(
         },
         {
           "text": "Rok szkolny 2018/2019",
-          "images": [
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj."
-          ]
+          "images": []
         },
         {
           "text": "W dniu 28 wrze\u015bnia klasy 1 TB i 2 TB przebywa\u0142y pod opiek\u0105 wychowawczy\u0144- p.Wies\u0142awy Tarasi\u0144skiej i p. Katarzyny Bugaj oraz p. Urszuli Kluchy na wycieczce integracyjnej w o\u015brodku MAKADAN w Janowie Lubelskim",
@@ -508,7 +506,7 @@ const history = ref(
         {
           "text": "Od pa\u017adziernika 2022 w LCKZiU dzia\u0142a Szkolne Ko\u0142o Caritas, kt\u00f3rego opiekunem jest p. D.Huszaluk. Organizował takie akcje jak Dzień Dobra czy charytatywny kiermasz ciast",
           "images": [
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X66jpg",
+            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X66.jpg",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X67.jpg",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X68.jpg",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X69.jpg"
@@ -587,9 +585,7 @@ const history = ref(
         },
         {
           "text": "Nasza szko\u0142a uczestniczy w wielu projektach zagranicznych. W latach 2013-2015 realizowany by\u0142 projekt Comenius PRIME Integracja i Migracja w Europie.",
-          "images": [
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj."
-          ]
+          "images": []
         },
         {
           "text": "Maj\u0105c na uwadze polityczne, ekonomiczne, spo\u0142eczne i kulturowe r\u00f3\u017cnice mi\u0119dzy poszczeg\u00f3lnymi regionami uczniowie szk\u00f3\u0142 partnerskich z Hiszpanii, Niemiec, W\u0142och, Grecji, Turcji opracowali materia\u0142y, w kt\u00f3rych zawarli przyczyny i skutki migracji w poszczeg\u00f3lnych regionach oraz wyci\u0105gn\u0119li wnioski nakierowane na integracj\u0119. Wyniki pracy region\u00f3w partnerskich by\u0142y analizowane i sprawdzane pod k\u0105tem mo\u017cliwo\u015bci wcielenia ich w \u017cycie w innym regionie partnerskim. Koordynatorem by\u0142 pan Dariusz Hryciuk, a nast\u0119pnie pani Agnieszka Kowalska, nauczyciele wsp\u00f3\u0142pracuj\u0105cy: pani Bo\u017cena Gabry\u015b - Szuli\u0144ska, pani Katarzyna Bugaj i pani Dorota Kr\u00f3l.",
@@ -791,7 +787,7 @@ const history = ref(
         {
           "text": "Od 2013 do 2022 roku w naszej szkole przyznawane by\u0142y stypendia naukowe w ramach projekt\u00f3w Fundacji \u015aw. Miko\u0142aja. Wszystkie dzia\u0142ania w ramach Fundacji \u015aw. Miko\u0142aja koordynowa\u0142a w naszej szkole pani Dorota Kr\u00f3l.Stypendystami byli mi\u0119dzy innymi: W roku szkolnym 2015/2016: Krzysztof Raczkowski, Patryk Do\u0142be\u0144-Sadurski. W roku szkolnym 2016/20171: Aleksandra St\u0119pniak, Daniel Siuda. W roku szkolnym 2021/2022: Jakub W\u00f3jciak",
           "images": [
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 285jpg.",
+            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 285.jpg",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 286.jpg",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 280.jpg",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 281.jpg"
@@ -859,7 +855,7 @@ const history = ref(
         {
           "text": "Biblioteka dwukrotnie (w roku 2017 i 2021) zakwalifikowa\u0142a si\u0119 do og\u0142oszonego Rozporz\u0105dzeniem Rady Ministr\u00f3w z dnia 22.10. 2015 r. Narodowego Programu Rozwoju Czytelnictwa dotycz\u0105cego wspierania bibliotek szkolnych przez promocj\u0119 czytelnictwa i zakup nowo\u015bci wydawniczych.Udzia\u0142 w programie umo\u017cliwi\u0142 zakup 1238 ksi\u0105\u017cek. Przy dokonywaniu zakupu kierowano si\u0119 g\u0142\u00f3wnie preferencjami m\u0142odzie\u017cy naszej szko\u0142y. W ramach realizacji programu w bibliotece organizowane by\u0142y wydarzenia promuj\u0105ce czytelnictwo z udzia\u0142em naszych uczni\u00f3w i nawi\u0105zana zosta\u0142a wsp\u00f3\u0142praca z Fili\u0105 nr 37 Biblioteki publicznej im. H. \u0141opaci\u0144skiego mieszcz\u0105c\u0105 si\u0119 przy ul. Bazylian\u00f3wka",
           "images": [
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 654.jpg",
+            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 654.png",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 655.jpg"
           ]
         },
