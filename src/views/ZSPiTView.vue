@@ -31,13 +31,13 @@ const history = ref(
         {
           "text": "W maju 1970 r. szkoła otrzymała gmach przy ul. Krzywej 6. Szkoła odziedziczyła również warsztaty szkolne wraz z kadrą pracowniczą po Zasadniczej Szkole Zawodowej nr 2, którą przeniesiono z ul. 1-go Maja na ul. Krzywą. Jednocześnie ze zmianą lokalu, nastąpiła zmiana nazwy szkoły. Dotychczasowe Technikum Przemysłowo-Pedagogiczne zostało przemianowane na Pedagogiczną Szkołę Techniczną.",
           "images": [
-            "../assets/schools/ZSTiP/images/zdj. 636.jpg"
+            "../assets/schools/ZSTiP/images/zdj. 636.webp"
           ]
         },
         {
           "text": "12 października 1974 roku Pedagogiczna Szkoła Techniczna otrzymała imię Komisji Edukacji Narodowej. Ufundowany został także przez Komitet Rodzicielski sztandar szkoły. Od tego czasu dzień 14 października będący rocznicą powołania Komisji Edukacji Narodowej stał się świętem szkoły.",
           "images": [
-            "../assets/schools/ZSTiP/images/zdj. 635.jpg"
+            "../assets/schools/ZSTiP/images/zdj. 635.webp"
           ]
         },
         {
@@ -49,7 +49,7 @@ const history = ref(
         {
           "text": "W roku szkolnym 1992/93 na podstawie decyzji Ministerstwa Edukacji Narodowej o likwidacji Pedagogicznych Studiów Technicznych (PST) oraz Studiów Nauczyczcielskich (SN), zaprzestano naboru do klas pierwszych Pedagogicznego Studium Technicznego. Funkcjonujące dotychczas w ramach ZSPiT Studium Wychowania Przedszkolnego z dniem 1 września 1990 r. zostało przemianowane na Liceum Ogólnokształcące nr 19. Pedagogiczne Studium Techniczne pozostawiono do wygaśnięcia, ale zostało przeniesione do Zespołu Szkół Mechaniczno-Energetycznych przy ul. Magnoliowej 8 razem z dyr.Andrzejem Głowackim i częścią kadry pedagogicznej.",
           "images": [
-            "../assets/schools/ZSTiP/images/zdj. 569.JPG"
+            "../assets/schools/ZSTiP/images/zdj. 569.webp"
           ]
         },
         {

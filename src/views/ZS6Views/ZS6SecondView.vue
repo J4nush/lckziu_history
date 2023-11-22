@@ -85,66 +85,66 @@ const history = ref(
         {
           "text": "Grudzie\u0144 1997 rok. Okres \u015awi\u0105t Bo\u017cego Narodzenia. Na zdj\u0119ciu dyrektor J\u00f3zef Szrubka z m\u0142odzie\u017c\u0105.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/15_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/16_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/15_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/16_zs2.webp"
           ]
         },
         {
           "text": "Nie ka\u017cdy z uczni\u00f3w mia\u0142 odpowiednie wzorce w domu rodzinnym, dlatego w okresie \u015bwi\u0105tecznym by\u0142y przygotowywane wystawy nakrycia sto\u0142\u00f3w.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/12_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/17_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/18_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/12_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/17_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/18_zs2.webp"
           ]
         },
         {
           "text": "Uroczyste zako\u0144czenie roku szkolnego 1992/1993. M\u0142odzie\u017c przed wej\u015bciem do szko\u0142y.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/19_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/20_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/19_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/20_zs2.webp"
           ]
         },
         {
           "text": "Uroczyste zako\u0144czenie roku szkolnego 1994/1995.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/21_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/21_zs2.webp"
           ]
         },
         {
           "text": "Uroczyste zako\u0144czenie roku szkolnego 2001/2002. M\u0142odzie\u017c przygotowa\u0142a inscenizacj\u0119,a nast\u0119pnie pan dyrektor Henryk Mizura wr\u0119czy\u0142 wyr\u00f3\u017cnionym uczniom nagrody.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/1_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/2_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/3_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/4_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/5_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/6_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/1_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/2_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/3_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/4_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/5_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/6_zs2.webp"
           ]
         },
         {
           "text": "Grono pedagogiczne.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/14_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/14_zs2.webp"
           ]
         },
         {
           "text": "Jesie\u0144 1998 rok. Zaj\u0119cia praktyczne na Osiedlu Maki.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/13_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/13_zs2.webp"
           ]
         },
         {
           "text": "M\u0142odzie\u017c kszta\u0142c\u0105ca si\u0119 w zawodzie ogrodnik prezentuje swoje prace.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/7_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/7_zs2.webp"
           ]
         },
         {
           "text": "Jesie\u0144 2000 rok. Apel na terenie przylegaj\u0105cym do szko\u0142y.",
           "images": [
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/9_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/10_zs2.jpg",
-            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/11_zs2.jpg"
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/9_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/10_zs2.webp",
+            "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/11_zs2.webp"
           ]
         }
       ]

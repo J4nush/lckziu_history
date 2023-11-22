@@ -24,48 +24,48 @@ const history = ref(
       {
         "text": "Wrzesie\u0144 1953 r. - dzi\u0119ki staraniom dyrektor mgr Haliny Gotzowej utworzono Technikum Gospodarki Komunalnej w Lublinie",
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0.jpg",
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0a dyrektor Halina Gotz.BMP",
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0b.jpg",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0.webp",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0a dyrektor Halina Gotz.webp",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0b.webp",
         ]
       },
       {
         "text": "Technikum mie\u015bci\u0142o si\u0119 przy ul. 1-go Maja 10 i posiada\u0142o w\u00f3wczas dwa wydzia\u0142y: wydzia\u0142 planowania gospodarki komunalnej oraz wydzia\u0142 eksploatacji i remontu gazowni i sieci gazowych",
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 1a.jpg"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 1a.webp"
         ]
       },
       {
         "text": "1954 r. - patronat nad szko\u0142\u0105 przej\u0119\u0142a Gazownia Miejska w Lublinie.Pierwsze studni\u00f3wki odbywa\u0142y si\u0119 w gazowni. Konrad B\u0105kowski pracownik Gazowni Miejskiej i jednocze\u015bnie nauczyciel szko\u0142y organizuje w 1957 roku  na terenie zak\u0142adu opieku\u0144czego laboratorium chemiczne",
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0c.png"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0c.webp"
         ]
       },
       {
         "text": "Na terenie gazowni utworzono r\u00f3wnie\u017c mechaniczny warsztat szkoleniowy, w kt\u00f3rym uczniowie  wykonywali podstawowe prace mechaniczne zgodne z programem nauczania." +
             " Konrad B\u0105kowski  jest autorem podr\u0119cznik\u00f3w z dziedziny gazownictwa, niekt\u00f3re z nich znajduj\u0105 si\u0119 w naszej bibliotece",
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0d.png"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 0d.webp"
         ]
       },
       {
         "text": "W kwietniu 1956 r. szko\u0142a przenosi si\u0119 do w\u0142asnego budynku. Jest to dostosowany do  potrzeb naucznia barak przy ul.Nowoprojektowej 3 (potem Bohater\u00f3w Bohater\u00f3w ORMO 3, a obecnie ul. W. Grabskiego)" ,
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 42.BMP"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 42.webp"
         ]
       },
       {
         "text": "Rok szkolny 1956/57 \u2013 w zwi\u0105zku z reform\u0105 szkolnictwa szko\u0142a przesta\u0142a by\u0107 resortow\u0105, a zacz\u0119\u0142a podlega\u0107 Ministerstwu O\u015bwiaty. W roku szkolnym 1956/1957 w szkole odbywa si\u0119 pierwszy egzamin maturalny",
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 47.jpg",
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 47a.png",
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 47b.png"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 47.webp",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 47a.webp",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 47b.webp"
         ]
       },
       {
         "text": "Powsta\u0142 te\u017c zesp\u00f3\u0142 taneczny \u2013 (zdj. 563).",
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 563.jpeg"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 563.webp"
         ]
       },
       {
@@ -73,23 +73,23 @@ const history = ref(
         "Rok szkolny 1957/1958 -  szko\u0142\u0119  ko\u0144czy 30 absolwent\u00f3w wydzia\u0142u planowania gospodarki komunalnej i 25 ekspoatacji i remontu gazowni." +
                 "W roku szkolnym 1958/59 szko\u0142a liczy\u0142a 7 klas:- by\u0142a to ostatnia klasa planowania gospodarki komunalnej licz\u0105ca 25 uczennic- dwie klasy pierwsze licz\u0105ce 35 uczni\u00f3w o specjalno\u015bci gazowniczej- dwie klasy drugie po 24 uczni\u00f3w o specjalno\u015bci   gazowniczej- jedna klasa trzecia licz\u0105ca 35 uczni\u00f3w o specjalno\u015bci gazowniczej- jedna klasa czwarta licz\u0105ca 18 uczni\u00f3w o specjalno\u015bci eksploatacja i remont gazowni i sieci gazowych.Grono nauczycielskie sk\u0142ada\u0142o si\u0119 z 19 os\u00f3b. Dyrektorem szko\u0142y by\u0142a nadal Halina Gotzowa, a nauczycielami byli: Czes\u0142aw Banaszek, Ryszard Buchli\u0144ski, Konrad B\u0105kowski, Henryk Bzowski, Piotr Ilczuk, Ryszard Knie\u0107, Ewa Litwi\u0144czuk, Wac\u0142aw Miszczak, Wojciech Pankowski, Maria Pr\u00f3chniak, Kazimiera Rewkowska, Stanis\u0142aw Szymanik, Aleksander Szyma\u0144ski,Alina Wendrowska, Tadeusz Wendrowski, Adam Markwat, S\u0142awomir Ziemi\u0144ski, Barbara Lecewicz.Lekcja matematyki prowadzona przez Tadeusza Wendrowskiego ",
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 556.jpg"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 556.webp"
         ]
       },
       {
         "text": "Zaj\u0119cia praktyczne w pracowni chemicznej",
         "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 564.jpg"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 564.webp"
         ]
       },
       {
         "text": "W szkole dzia\u0142a\u0142 zesp\u00f3\u0142 dramatyczny",
             "images": [
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 558.jpg",
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 559.jpg",
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 560.jpg",
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 561.jpg",
-          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 563.jpeg"
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 558.webp",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 559.webp",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 560.webp",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 561.webp",
+          "../assets/schools/SnM/1953-1959 - Technikum Gospodarki Komunalnej/images/zdj. 563.webp"
         ]
       },
       {

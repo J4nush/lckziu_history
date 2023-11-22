@@ -25,31 +25,31 @@ const history = ref(
         {
           "text": "W 1973 roku Kuratorium Okr\u0119gu Szkolnego w Lublinie \u0142\u0105czy szko\u0142y funkcjonuj\u0105ce przy ulicy D\u0142ugosza w Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych nr 4, w sk\u0142ad  kt\u00f3rego wchodz\u0105: <br> 1. Zasadnicza Szko\u0142a Zawodowa nr 1 <br> 2. Liceum Zawodowe nr 1 <br> 3. 5-letnie Technikum Mechaniczne po 8 klasach szko\u0142y podstawowej <br> 4. Technikum Mechaniczne wydzia\u0142 dla pracuj\u0105cych <br> 5. 2-letnie Technikum Mechaniczne dla Przoduj\u0105cych Robotnik\u00f3w.",
           "images": [
-            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 155.jpg"
+            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 155.webp"
           ]
         },
         {
           "text": "Dyrektorem w dalszym ci\u0105gu pozostaje p. Henryk Frydecki, kt\u00f3ry rozpocz\u0105\u0142 kierownie szko\u0142\u0105 w 1954 roku. Szko\u0142a mie\u015bci\u0142a si\u0119 przy ul. J. D\u0142ugosza 10. Do ciekawych  dzia\u0142a\u0144 podejmowanych przez m\u0142odzie\u017c w tym okresie nale\u017cy inicjatywa budowy szkolnego o\u015brodka rekreacyjnego nad Jeziorem Piaseczno.  Artyku\u0142  Andrzeja Molika zamieszczony w Kurierze Lubelskim z dnia 3XII 1974 r.",
           "images": [
-            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 681.png"
+            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 681.webp"
           ]
         },
         {
           "text": "Z \u017cycia szko\u0142y - notatki z kronik Rozpocz\u0119cie roku szkolnego.",
           "images": [
-            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 351.png"
+            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 351.webp"
           ]
         },
         {
           "text": "A tak \u015bwi\u0119towano Dzie\u0144 Nauczyciela.",
           "images": [
-            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 161.jpg"
+            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 161.webp"
           ]
         },
         {
           "text": "Zako\u0144czenie roku szkolnego.",
           "images": [
-            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 352.png"
+            "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 352.webp"
           ]
         }
       ]

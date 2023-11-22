@@ -25,17 +25,17 @@ const history = ref(
           {
             "text": "We wrze\u015bniu 1969 roku szko\u0142a zmieni\u0142a na  nazw\u0119 Technikum Mechaniczno \u2013 Energetyczne. Funkcj\u0119 dyrektora szko\u0142y nadal  sprawowa\u0142 mgr in\u017c. Wies\u0142aw Jab\u0142o\u0144ski",
             "images": [
-              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 34.jpg"
+              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 34.webp"
             ]
           },
           {
             "text": "Do, roku 1970  Technikum Mechaniczno \u2013 Energetyczne mie\u015bci\u0142o si\u0119 przy ulicy Bohater\u00f3w ORMO 3. 12 lutego 1970 r. szko\u0142a zosta\u0142a przeniesiona do  budynku przy ul. Lubartowskiej 76 (obecnie Al. Sp\u00f3\u0142dzielczo\u015bci Pracy)",
             "images": [
-              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 3.BMP",
-              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 4.BMP",
-              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 39.BMP",
-              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 40.BMP",
-              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 41.BMP"
+              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 3.webp",
+              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 4.webp",
+              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 39.webp",
+              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 40.webp",
+              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 41.webp"
             ]
           },
           {
@@ -45,8 +45,8 @@ const history = ref(
           {
             "text": "Skład Rady Pedagogicznej",
             "images": [
-              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 557a.jpg",
-              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 557b.jpg"
+              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 557a.webp",
+              "../assets/schools/SnM/1969-1971 - Technikum Mechaniczno-Energetyczne/images/zdj. 557b.webp"
             ]
           }
         ]
