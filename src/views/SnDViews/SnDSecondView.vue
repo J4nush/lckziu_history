@@ -23,7 +23,7 @@ const history = ref(
       "parent_folder": "history_files\\SnD\\1973 - 1975 -  Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych",
       "texts_with_images": [
         {
-          "text": "W 1973 roku Kuratorium Okr\u0119gu Szkolnego w Lublinie \u0142\u0105czy szko\u0142y funkcjonuj\u0105ce przy ulicy D\u0142ugosza w Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych nr 4, w sk\u0142ad  kt\u00f3rego wchodz\u0105:  1. Zasadnicza Szko\u0142a Zawodowa nr 1 2. Liceum Zawodowe nr 1 3. 5-letnie Technikum Mechaniczne po 8 klasach szko\u0142y podstawowej 4. Technikum Mechaniczne wydzia\u0142 dla pracuj\u0105cych 5. 2-letnie Technikum Mechaniczne dla Przoduj\u0105cych Robotnik\u00f3w",
+          "text": "W 1973 roku Kuratorium Okr\u0119gu Szkolnego w Lublinie \u0142\u0105czy szko\u0142y funkcjonuj\u0105ce przy ulicy D\u0142ugosza w Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych nr 4, w sk\u0142ad  kt\u00f3rego wchodz\u0105: <br> 1. Zasadnicza Szko\u0142a Zawodowa nr 1 <br> 2. Liceum Zawodowe nr 1 <br> 3. 5-letnie Technikum Mechaniczne po 8 klasach szko\u0142y podstawowej <br> 4. Technikum Mechaniczne wydzia\u0142 dla pracuj\u0105cych <br> 5. 2-letnie Technikum Mechaniczne dla Przoduj\u0105cych Robotnik\u00f3w.",
           "images": [
             "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 155.jpg"
           ]
@@ -35,19 +35,19 @@ const history = ref(
           ]
         },
         {
-          "text": "Z \u017cycia szko\u0142y- notatki z kronik Rozpocz\u0119cie roku szkolnego",
+          "text": "Z \u017cycia szko\u0142y - notatki z kronik Rozpocz\u0119cie roku szkolnego.",
           "images": [
             "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 351.png"
           ]
         },
         {
-          "text": "A tak \u015bwi\u0119towano Dzie\u0144 Nauczyciela",
+          "text": "A tak \u015bwi\u0119towano Dzie\u0144 Nauczyciela.",
           "images": [
             "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 161.jpg"
           ]
         },
         {
-          "text": "Zako\u0144czenie roku szkolnego",
+          "text": "Zako\u0144czenie roku szkolnego.",
           "images": [
             "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 352.png"
           ]

@@ -19,8 +19,8 @@ const home = ref({
 <template>
 <Menubar  class="pl-3 pt-2">
     <template #start>
-        <span class="flex flex-row content-center items-center gap-3">
-          <div class="flex content-center">
+        <span class="flex flex-row flex-wrap content-center items-center gap-3">
+          <div class="">
         <img alt="logo" src="../assets/lckziu_logo.png" class="h-20 inline cursor-pointer" @click="router.push('/')"/>
 
           </div>

@@ -27,7 +27,7 @@ const history = ref(
           "images": []
         },
         {
-          "text": ".Rok szkolny 1998/99 \u2013 decyzja  Kuratora O\u015bwiaty o powo\u0142aniu w LCEZ nowego typu szko\u0142y \u2013 Liceum Technicznego o profilu mechanicznym.Dyrektorem szko\u0142y do 1 wrze\u015bnia 2002 roku  by\u0142  mgr in\u017c. Kazimierz Jakubowski",
+          "text": "Rok szkolny 1998/99 \u2013 decyzja  Kuratora O\u015bwiaty o powo\u0142aniu w LCEZ nowego typu szko\u0142y \u2013 Liceum Technicznego o profilu mechanicznym.Dyrektorem szko\u0142y do 1 wrze\u015bnia 2002 roku  by\u0142  mgr in\u017c. Kazimierz Jakubowski",
           "images": [
             "../assets/schools/SnM/1998-2014 - Lubelskie Centrum Edukacji Zawodowej/images/zdj. 571.jpg"
           ]
@@ -39,13 +39,13 @@ const history = ref(
           ]
         },
         {
-          "text": "Dyrektor Eryk Winkler oraz wice-dyrektor mgr. in\u017c. S\u0142awomir Dyba\u0142a, kierownik warsztat\u00f3w mgr in\u017c.Stanis\u0142aw Kwietniewski, wice-dyrektor mgr in\u017c. Andrzej Zbara\u0144ski, wice-dyrektor mgr Bo\u017cenna Jankiewicz, wice-dyrektor mgr Andrzej G\u0142owacki",
+          "text": "Dyrektor Eryk Winkler<br/>wice-dyrektor mgr. in\u017c. S\u0142awomir Dyba\u0142a<br/>kierownik warsztat\u00f3w mgr in\u017c.Stanis\u0142aw Kwietniewski<br/>wice-dyrektor mgr in\u017c. Andrzej Zbara\u0144ski<br/>wice-dyrektor mgr Bo\u017cenna Jankiewicz<br/>wice-dyrektor mgr Andrzej G\u0142owacki",
           "images": [
             "../assets/schools/SnM/1998-2014 - Lubelskie Centrum Edukacji Zawodowej/images/zdj. 569.JPG"
           ]
         },
         {
-          "text": "1 wrze\u015bnia 2002 \u2013 w LCEZ rozpocz\u0119\u0142y dzia\u0142alno\u015b\u0107 szko\u0142y ponadgimnazjalne: 3-letnie liceum profilowane i 4-letnie technikum1 wrze\u015bnia 2007 roku -  dyrektorem szko\u0142y zosta\u0142 mgr Jacek Misiuk",
+          "text": "1 wrze\u015bnia 2002 \u2013 w LCEZ rozpocz\u0119\u0142y dzia\u0142alno\u015b\u0107 szko\u0142y ponadgimnazjalne: 3-letnie liceum profilowane i 4-letnie technikum.<br/>1 wrze\u015bnia 2007 roku -  dyrektorem szko\u0142y zosta\u0142 mgr Jacek Misiuk",
           "images": [
             "../assets/schools/SnM/1998-2014 - Lubelskie Centrum Edukacji Zawodowej/images/zdj. 173.jpg"
           ]

@@ -23,7 +23,7 @@ const history = ref(
       "parent_folder": "history_files\\ZS6\\2002-2019 Zesp\u00f3\u0142 Szk\u00f3\u0142 nr 6",
       "texts_with_images": [
         {
-          "text": "Kr\u00f3tka historia Zespo\u0142u Szk\u00f3\u0142 nr 6 przy ul. Diamentowej 2 w Lublinie",
+          "text": "Kr\u00f3tka historia Zespo\u0142u Szk\u00f3\u0142 nr 6 przy ul. Diamentowej 2 w Lublinie.",
           "images": []
         },
         {
@@ -31,7 +31,7 @@ const history = ref(
           "images": []
         },
         {
-          "text": "W sk\u0142ad nowego zespo\u0142u Szk\u00f3\u0142 nr 6 w Lublinie wesz\u0142y nast\u0119puj\u0105ce szko\u0142y:Gimnazjum nr 4;Technikum Energetyczne nr 2;Technikum Mechaniczno-Energetyczne nr 2 na podbudowie programowej szko\u0142y podstawowej (do wyga\u015bni\u0119cia):Technikum Mechaniczno-Energetyczne na podbudowie programowej zasadniczej szko\u0142y zawodowej (do wyga\u015bni\u0119cia):Zasadnicza Szko\u0142a Zawodowa;Gimnazjum dla Doros\u0142ych:Zasadnicza Szko\u0142a Zawodowa dla Doros\u0142ych;Technikum Mechaniczno-Elektryczne dla Doros\u0142ych;XVII Liceum Profilowane dla Doros\u0142ych.",
+          "text": "W sk\u0142ad nowego zespo\u0142u Szk\u00f3\u0142 nr 6 w Lublinie wesz\u0142y nast\u0119puj\u0105ce szko\u0142y: Gimnazjum nr 4;<br>Technikum Energetyczne nr 2;<br>Technikum Mechaniczno-Energetyczne nr 2 na podbudowie programowej szko\u0142y podstawowej (do wyga\u015bni\u0119cia): Technikum Mechaniczno-Energetyczne na podbudowie programowej zasadniczej szko\u0142y zawodowej (do wyga\u015bni\u0119cia):Zasadnicza Szko\u0142a Zawodowa;<br>Gimnazjum dla Doros\u0142ych: Zasadnicza Szko\u0142a Zawodowa dla Doros\u0142ych;<br>Technikum Mechaniczno-Elektryczne dla Doros\u0142ych;<br>XVII Liceum Profilowane dla Doros\u0142ych.",
           "images": []
         },
         {

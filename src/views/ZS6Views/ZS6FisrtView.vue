@@ -23,10 +23,10 @@ const history = ref(
       "parent_folder": "history_files\\ZS6\\1959-2002 Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych nr 1",
       "texts_with_images": [
         {
-          "text": "Kr\u00f3tka historia Zespo\u0142u Szk\u00f3\u0142 Zawodowych nr 1 w LublinieW 1959 roku. Ministerstwo Budownictwa i Przemys\u0142u Materia\u0142\u00f3w Budowlanych powo\u0142a\u0142o Zasadnicz\u0105 Szko\u0142\u0119 Zawodow\u0105 dla Pracuj\u0105cych Przedsi\u0119biorstwa Rob\u00f3t Elektrycznych \u2013 Elektromonta\u017c w Lublinie. Szko\u0142a mie\u015bci\u0142a si\u0119 w budynku Szko\u0142y Podstawowej nr 32 przy ul. Przerwy-Tetmajera 2. Kszta\u0142ci\u0142a w zawodzie elektromontera dla potrzeb nowego zak\u0142adu. By\u0142a to szko\u0142a dokszta\u0142caj\u0105ca. Zaj\u0119cia warsztatowe odbywa\u0142y si\u0119 w zak\u0142adzie, a w szkole by\u0142o dokszta\u0142canie. W 1963 roku powo\u0142ano Technikum Mechaniczne dla Pracuj\u0105cych przy Przedsi\u0119biorstwie Rob\u00f3t Elektrycznych \u201eElektromonta\u017c\u201d w Lublinie. W 1974 roku dyrektor Wawnosek rozpocz\u0105\u0142",
+          "text": "Kr\u00f3tka historia Zespo\u0142u Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie. W 1959 roku. Ministerstwo Budownictwa i Przemys\u0142u Materia\u0142\u00f3w Budowlanych powo\u0142a\u0142o Zasadnicz\u0105 Szko\u0142\u0119 Zawodow\u0105 dla Pracuj\u0105cych Przedsi\u0119biorstwa Rob\u00f3t Elektrycznych \u2013 Elektromonta\u017c w Lublinie. Szko\u0142a mie\u015bci\u0142a si\u0119 w budynku Szko\u0142y Podstawowej nr 32 przy ul. Przerwy-Tetmajera 2. Kszta\u0142ci\u0142a w zawodzie elektromontera dla potrzeb nowego zak\u0142adu. By\u0142a to szko\u0142a dokszta\u0142caj\u0105ca. Zaj\u0119cia warsztatowe odbywa\u0142y si\u0119 w zak\u0142adzie, a w szkole by\u0142o dokszta\u0142canie. W 1963 roku powo\u0142ano Technikum Mechaniczne dla Pracuj\u0105cych przy Przedsi\u0119biorstwie Rob\u00f3t Elektrycznych \u201eElektromonta\u017c\u201d w Lublinie. W 1974 roku dyrektor Wawnosek rozpocz\u0105\u0142.",
           "images": [
-            "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/_zsz1.jpg1_zsz1.jpg",
-            "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/_zsz1.jpg2_zsz1.jpg"
+            "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/1_zsz1.jpg",
+            "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/2_zsz1.jpg"
           ]
         },
         {
@@ -35,7 +35,7 @@ const history = ref(
           ]
         },
         {
-          "text": "W 1979 roku powo\u0142ano Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych Przedsi\u0119biorstwa Rob\u00f3t Eletrycznych \u201eElektromonta\u017c\u201d w Lublinie. W sk\u0142ad zespo\u0142u wchodzi\u0142y szko\u0142y:- Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych;- Technikum Elektryczne dla Pracuj\u0105cych;- \u015arednie Studium dla Pracuj\u0105cych.Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych kszta\u0142ci\u0142a w nast\u0119puj\u0105ce kierunkach: elektromonter, \u015blusarz \u2013 spawacz.",
+          "text": "W 1979 roku powo\u0142ano Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych Przedsi\u0119biorstwa Rob\u00f3t Eletrycznych \u201eElektromonta\u017c\u201d w Lublinie. W sk\u0142ad zespo\u0142u wchodzi\u0142y szko\u0142y: <br> - Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych; <br>- Technikum Elektryczne dla Pracuj\u0105cych; <br> - \u015arednie Studium dla Pracuj\u0105cych.<br> Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych kszta\u0142ci\u0142a w nast\u0119puj\u0105ce kierunkach: elektromonter, \u015blusarz \u2013 spawacz.",
           "images": [
           ]
         },
@@ -45,12 +45,12 @@ const history = ref(
           ]
         },
         {
-          "text": "Zaj\u0119cia praktyczne m\u0142odzie\u017c odbywa\u0142a w Zak\u0142adach \u201eElektromonta\u017c\u201d, jako m\u0142odociani pracownicy, otrzymywa\u0142a wynagrodzenie, posi\u0142ki regeneracyjne, ubrania robocze.",
+          "text": "Zaj\u0119cia praktyczne m\u0142odzie\u017c odbywa\u0142a w Zak\u0142adach \u201eElektromonta\u017c\u201d,  jako m\u0142odociani pracownicy, otrzymywa\u0142a wynagrodzenie, posi\u0142ki regeneracyjne, ubrania robocze.",
           "images": [
           ]
         },
         {
-          "text": "Absolwenci szko\u0142y mieli mo\u017cliwo\u015b\u0107 podj\u0119cia pracy w \u201eElektromonta\u017cu\u201d. W 1990 roku \u201eElektromonta\u017c\u201d przekaza\u0142 szko\u0142\u0119 Kuratorium O\u015bwiaty w Lublinie. R\u00f3wnocze\u015bnie zmieniono nazw\u0119 szko\u0142y na Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie",
+          "text": "Absolwenci szko\u0142y mieli mo\u017cliwo\u015b\u0107 podj\u0119cia pracy w \u201eElektromonta\u017cu\u201d. W 1990 roku \u201eElektromonta\u017c\u201d przekaza\u0142 szko\u0142\u0119 Kuratorium O\u015bwiaty w Lublinie. R\u00f3wnocze\u015bnie zmieniono nazw\u0119 szko\u0142y na Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/3_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/4_zsz1.jpg",
@@ -64,12 +64,12 @@ const history = ref(
           ]
         },
         {
-          "text": "W 1993 roku powo\u0142ano Technikum Mechaniczno-Energetyczne nr 2 w Lublinie, kt\u00f3re kszta\u0142ci\u0142o w zawodzie technik mechanik \u2013 specjalno\u015b\u0107: budowa maszyn. Natomiast Technikum Elektryczne dla Pracuj\u0105cych przemianowano na Technikum Elektryczne dla Doros\u0142ych, by w 1998 roku przemianowa\u0107 w Technikum Mechaniczno-Elektryczne dla Doros\u0142ych.W 1996 roku powo\u0142ano Policealne Studium Zawodowe: technik archiwista.",
+          "text": "W 1993 roku powo\u0142ano Technikum Mechaniczno-Energetyczne nr 2 w Lublinie, kt\u00f3re kszta\u0142ci\u0142o w zawodzie technik mechanik \u2013 specjalno\u015b\u0107: budowa maszyn. Natomiast Technikum Elektryczne dla Pracuj\u0105cych przemianowano na Technikum Elektryczne dla Doros\u0142ych, by w 1998 roku przemianowa\u0107 w Technikum Mechaniczno-Elektryczne dla Doros\u0142ych. W 1996 roku powo\u0142ano Policealne Studium Zawodowe: technik archiwista.",
           "images": [
           ]
         },
         {
-          "text": "Szko\u0142y wchodz\u0105ce w sk\u0142ad Zespo\u0142u Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie w 90-latach kszta\u0142ci\u0142y w nast\u0119puj\u0105cych zawodach:Zasadnicza Szko\u0142a Zawodowa nr 17: mechanik pojazd\u00f3w samochodowych, elektryk, blacharz samochodowy i elektromonter.Technikum Mechaniczno-Energetyczne nr 2 na podbudowie programowej szko\u0142y podstawowej: technik mechanik specjalno\u015bciach: energetyka cieplna i budowa maszyn, budowa i eksploatacja maszyn samochodowych.Technikum Mechaniczno-Elektryczne dla Doros\u0142ych: technik elektryk i technik mechanik.",
+          "text": "Szko\u0142y wchodz\u0105ce w sk\u0142ad Zespo\u0142u Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie w 90-latach kszta\u0142ci\u0142y w nast\u0119puj\u0105cych zawodach: Zasadnicza Szko\u0142a Zawodowa nr 17: mechanik pojazd\u00f3w samochodowych, elektryk, blacharz samochodowy i elektromonter. Technikum Mechaniczno-Energetyczne nr 2 na podbudowie programowej szko\u0142y podstawowej: technik mechanik specjalno\u015bciach: energetyka cieplna i budowa maszyn, budowa i eksploatacja maszyn samochodowych. Technikum Mechaniczno-Elektryczne dla Doros\u0142ych: technik elektryk i technik mechanik.",
           "images": [
           ]
         },
@@ -94,7 +94,7 @@ const history = ref(
           ]
         },
         {
-          "text": "Pracownie szkolne",
+          "text": "Pracownie szkolne.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/6_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/7_zsz1.jpg",
@@ -106,7 +106,7 @@ const history = ref(
           ]
         },
         {
-          "text": "Zaj\u0119cia na warsztatach",
+          "text": "Zaj\u0119cia na warsztatach.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/13_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/14_zsz1.jpg",
@@ -116,22 +116,22 @@ const history = ref(
           ]
         },
         {
-          "text": "posi\u0142ek regeneracyjny",
+          "text": "Posi\u0142ek regeneracyjny.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/18_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/19_zsz1.jpg"
           ]
         },
         {
-          "text": "Rozpocz\u0119cie roku szkolnego 1988/1989",
+          "text": "Rozpocz\u0119cie roku szkolnego 1988/1989.",
           "images": [
-            "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/20_zsz1.jpg",
+            "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/20_sz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/21_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/23_zsz1.jpg"
           ]
         },
         {
-          "text": "17 wrzesie\u0144 1988 rok \u2013 Festyn sportowo-rekreacyjny",
+          "text": "17 wrzesie\u0144 1988 rok \u2013 Festyn sportowo-rekreacyjny.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/24_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/25_zsz1.jpg",
@@ -139,7 +139,7 @@ const history = ref(
           ]
         },
         {
-          "text": "Listopad 1988 rok \u2013 Andrzejki",
+          "text": "Listopad 1988 rok \u2013 Andrzejki.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/27_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/28_zsz1.jpg",
@@ -148,7 +148,7 @@ const history = ref(
           ]
         },
         {
-          "text": "21 stycze\u0144 1989 rok \u2013 Studni\u00f3wka",
+          "text": "21 stycze\u0144 1989 rok \u2013 Studni\u00f3wka.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/31_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/32_zsz1.jpg",
@@ -158,7 +158,7 @@ const history = ref(
           ]
         },
         {
-          "text": "8 marzec 1989 rok \u2013 Akademia z okazji Mi\u0119dzynarodowego \u015awi\u0119ta Kobiet",
+          "text": "8 marzec 1989 rok \u2013 Akademia z okazji Mi\u0119dzynarodowego \u015awi\u0119ta Kobiet.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/36_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/37_zsz1.jpg",
@@ -167,7 +167,7 @@ const history = ref(
           ]
         },
         {
-          "text": "1 maj 1989 \u2013 Akademia z okazji \u015awi\u0119ta Pracy 1 Maja",
+          "text": "1 maj 1989 \u2013 Akademia z okazji \u015awi\u0119ta Pracy 1 Maja.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/40_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/41_zsz1.jpg",
@@ -175,7 +175,7 @@ const history = ref(
           ]
         },
         {
-          "text": "8-10 maj 1989 rok \u2013 Wycieczka \u201eSzlakiem Piastowskim\u201d",
+          "text": "8-10 maj 1989 rok \u2013 Wycieczka \u201eSzlakiem Piastowskim\u201d.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/43_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/44_zsz1.jpg",
@@ -185,14 +185,14 @@ const history = ref(
           ]
         },
         {
-          "text": "9 czerwiec 1989 rok \u2013 Po\u017cegnanie klas trzecich",
+          "text": "9 czerwiec 1989 rok \u2013 Po\u017cegnanie klas trzecich.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/48_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/49_zsz1.jpg"
           ]
         },
         {
-          "text": "24 czerwiec 1989 rok \u2013 Uroczyste zako\u0144czenie roku szkolnego 1988/198",
+          "text": "24 czerwiec 1989 rok \u2013 Uroczyste zako\u0144czenie roku szkolnego 1988/1989.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/50_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/51_zsz1.jpg",
@@ -202,7 +202,7 @@ const history = ref(
           ]
         },
         {
-          "text": "11 listopad 1989 rok \u2013 Akademia z okazji rocznicy odzyskania niepodleg\u0142o\u015bci przez Polsk\u0119",
+          "text": "11 listopad 1989 rok \u2013 Akademia z okazji rocznicy odzyskania niepodleg\u0142o\u015bci przez Polsk\u0119.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/55_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/56_zsz1.jpg",
@@ -210,7 +210,7 @@ const history = ref(
           ]
         },
         {
-          "text": "1989 rok \u2013 Kurs ta\u0144ca towarzyskiego I stopnia",
+          "text": "1989 rok \u2013 Kurs ta\u0144ca towarzyskiego I stopnia.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/58_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/59_zsz1.jpg",
@@ -219,13 +219,13 @@ const history = ref(
           ]
         },
         {
-          "text": "30 listopad 1989 rok \u2013 Andrzejki",
+          "text": "30 listopad 1989 rok \u2013 Andrzejki.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/61_zsz1.jpg"
           ]
         },
         {
-          "text": "20 stycze\u0144 1990 rok \u2013 Studni\u00f3wka",
+          "text": "20 stycze\u0144 1990 rok \u2013 Studni\u00f3wka.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/63_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/64_zsz1.jpg",
@@ -235,7 +235,7 @@ const history = ref(
           ]
         },
         {
-          "text": "8 marzec 1990 rok \u2013 Mi\u0119dzynarodowy Dzie\u0144 Kobiet",
+          "text": "8 marzec 1990 rok \u2013 Mi\u0119dzynarodowy Dzie\u0144 Kobiet.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/68_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/69_zsz1.jpg",
@@ -244,7 +244,7 @@ const history = ref(
           ]
         },
         {
-          "text": "Maj 1990 rok \u2013 Matura",
+          "text": "Maj 1990 rok \u2013 Matura.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/72_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/73_zsz1.jpg",
@@ -254,7 +254,7 @@ const history = ref(
           ]
         },
         {
-          "text": "22 czerwiec 1990 rok \u2013 Uroczyste zako\u0144czenie roku szkolnego 1998/1990",
+          "text": "22 czerwiec 1990 rok \u2013 Uroczyste zako\u0144czenie roku szkolnego 1998/1990.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/77_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/78_zsz1.jpg",
@@ -265,7 +265,7 @@ const history = ref(
           ]
         },
         {
-          "text": "21 marzec 1991 rok \u2013 Integracja spo\u0142eczno\u015bci szkolnej",
+          "text": "21 marzec 1991 rok \u2013 Integracja spo\u0142eczno\u015bci szkolnej.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/83_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/84_zsz1.jpg",
@@ -277,7 +277,7 @@ const history = ref(
           ]
         },
         {
-          "text": "14 kwiecie\u0144 1991 rok \u2013 Akademia \u2013 Kwiecie\u0144 miesi\u0105cem Pami\u0119ci Narodowej",
+          "text": "14 kwiecie\u0144 1991 rok \u2013 Akademia \u2013 Kwiecie\u0144 miesi\u0105cem Pami\u0119ci Narodowej.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/90_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/91_zsz1.jpg",
@@ -290,13 +290,13 @@ const history = ref(
           ]
         },
         {
-          "text": "2001 rok \u2013 Studni\u00f3wka",
+          "text": "2001 rok \u2013 Studni\u00f3wka.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/98_zsz1.jpg"
           ]
         },
         {
-          "text": "Lekcja j\u0119zyka polskiego w korelacji z j\u0119zykiem niemieckim",
+          "text": "Lekcja j\u0119zyka polskiego w korelacji z j\u0119zykiem niemieckim.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/99_zsz1.jpg",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/100_zsz1.jpg",

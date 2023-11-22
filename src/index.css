@@ -15,3 +15,9 @@
 main{
 
 }
+.marker-bg{
+    background-color: rgb(215, 215, 215);
+}
+.marker-bg i{
+    color: rgb(30, 115, 190);
+}

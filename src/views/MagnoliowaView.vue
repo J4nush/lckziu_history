@@ -8,6 +8,7 @@ import {useRouter} from 'vue-router'
 import BackButton from "@/components/BackButton.vue";
 import LoadingScreen from "@/components/LoadingScreen.vue";
 import globalState from "@/globalState";
+import TimelineComponent from "@/components/TimelineComponent.vue";
 
 const router = useRouter()
 const home = ref({
@@ -22,13 +23,7 @@ const changeLoad = () => {
   globalState.value.loading = !globalState.value.loading
 }
 
-const goToView = (path)=> {
-  changeLoad()
-  setTimeout(function() {
-    router.push(path)
-  }, 500);
 
-}
 
 const items = ref([
     {
@@ -60,24 +55,10 @@ const events = ref([
     <MenuComponent :items="items"/>
     <BackButton to="/"/>
 
-  <main class="flex justify-center align-center pl-28 pr-28" style="min-height: 70vh;">
-    <Timeline :value="events" layout="horizontal" align="top">
-        <template #marker="slotProps">
-        <div class="p-4 marker-bg rounded-full cursor-pointer hover:animate-pulse" v-tooltip="'Zobacz wiecej'" @click="goToView(slotProps.item?.to)">
-            <i class="pi pi-history" style="font-size: 3rem"></i>
-        </div>
-    </template>
-    <template #content="slotProps" >
-        <p class="absolute text-white" style="">
-        {{ slotProps.item.data }}
-        </p>
-
-    </template>
-</Timeline>
+  <main class="flex justify-center align-center pl-28 pr-28 min-h-[70vh] xl:min-h-[70vh]">
+    <TimelineComponent :events="events" />
   </main>
 </template>
 <style scoped>
-.marker-bg{
-    background-color:  rgba(1, 105, 165, 1);
-}
+
 </style>

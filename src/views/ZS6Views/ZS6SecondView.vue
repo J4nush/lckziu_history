@@ -23,7 +23,7 @@ const history = ref(
       "parent_folder": "history_files\\ZS6\\1983-2002 Zesp\u00f3\u0142 Szk\u00f3\u0142 nr 2",
       "texts_with_images": [
         {
-          "text": "Kr\u00f3tki zarys historii Zespo\u0142u Szk\u00f3\u0142 nr 2 w LubliniePocz\u0105tki Zespo\u0142u Szk\u00f3\u0142 nr 6 w Lublinie si\u0119gaj\u0105 roku 1982. W\u00f3wczas to pan mgr J\u00f3zef Szrubka zosta\u0142 pierwszym dyrektorem szk\u00f3\u0142 dla doros\u0142ych. Nauka odbywa\u0142a si\u0119 w dw\u00f3ch odr\u0119bnych plac\u00f3wkach: przy ul. Lotniczej w obecnej Szkole Podstawowej nr 31 w Lublinie oraz przy ul. Nieca\u0142ej w Szkole Podstawowej nr 24 w Lublinie. W tych szko\u0142ach nauk\u0119 odbywali Junacy Ochotniczych Hufc\u00f3w Pracy",
+          "text": "Kr\u00f3tki zarys historii Zespo\u0142u Szk\u00f3\u0142 nr 2 w LubliniePocz\u0105tki Zespo\u0142u Szk\u00f3\u0142 nr 6 w Lublinie si\u0119gaj\u0105 roku 1982. W\u00f3wczas to pan mgr J\u00f3zef Szrubka zosta\u0142 pierwszym dyrektorem szk\u00f3\u0142 dla doros\u0142ych. Nauka odbywa\u0142a si\u0119 w dw\u00f3ch odr\u0119bnych plac\u00f3wkach: przy ul. Lotniczej w obecnej Szkole Podstawowej nr 31 w Lublinie oraz przy ul. Nieca\u0142ej w Szkole Podstawowej nr 24 w Lublinie. W tych szko\u0142ach nauk\u0119 odbywali Junacy Ochotniczych Hufc\u00f3w Pracy.",
           "images": [
           ]
         },
@@ -38,12 +38,12 @@ const history = ref(
           ]
         },
         {
-          "text": "W, sk\u0142ad Zespo\u0142u Szk\u00f3\u0142 nr 2 wchodzi\u0142y nast\u0119puj\u0105ce szko\u0142y:Szko\u0142a Przysposabiaj\u0105ca do Zawodu, a od 1 marca 1993 r. Szko\u0142a Przysposabiaj\u0105ca do Pracy Zawodowej ( na bazie klasy 7 i 8 szko\u0142y podstawowej) i kszta\u0142ci\u0142a uczni\u00f3w w nast\u0119puj\u0105cych kierunkach: ogrodnik, cie\u015bla, murarz, tynkarz, betoniarz, zbrojarz, \u015blusarz, tokarz;Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych, od 1 marca1993 r. Zasadnicza Szko\u0142a Zawodowa dla Doros\u0142ych \u2013 kszta\u0142ci\u0142a w zawodach: cie\u015bla, murarz, tynkarz, betoniarz, zbrojarz;Podstawowe Studium Zawodowe Nr 2;Szko\u0142a Podstawowa dla Pracuj\u0105cych Nr 2, od 1 marca 1993 r. Szko\u0142a Podstawowa dla Doros\u0142ych.",
+          "text": "W sk\u0142ad Zespo\u0142u Szk\u00f3\u0142 nr 2 wchodzi\u0142y nast\u0119puj\u0105ce szko\u0142y: Szko\u0142a Przysposabiaj\u0105ca do Zawodu, a od 1 marca 1993 r. Szko\u0142a Przysposabiaj\u0105ca do Pracy Zawodowej (na bazie klasy 7 i 8 szko\u0142y podstawowej) i kszta\u0142ci\u0142a uczni\u00f3w w nast\u0119puj\u0105cych kierunkach: ogrodnik, cie\u015bla, murarz, tynkarz, betoniarz, zbrojarz, \u015blusarz, tokarz; <br>Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych, od 1 marca1993 r. Zasadnicza Szko\u0142a Zawodowa dla Doros\u0142ych \u2013 kszta\u0142ci\u0142a w zawodach: cie\u015bla, murarz, tynkarz, betoniarz, zbrojarz;<br>Podstawowe Studium Zawodowe Nr 2;<br>Szko\u0142a Podstawowa dla Pracuj\u0105cych Nr 2, od 1 marca 1993 r. Szko\u0142a Podstawowa dla Doros\u0142ych.",
           "images": [
           ]
         },
         {
-          "text": "W Zespole Szk\u00f3\u0142 Nr 2 w dalszym ci\u0105gu nauk\u0119 odbywali junacy Ochotniczych Hufc\u00f3w Pracy z nast\u0119puj\u0105cych Hufc\u00f3w:Hufiec 21-8 przy ul. Droga M\u0119czennik\u00f3w MajdankaHufiec 21-2 przy ul. WojciechowskiejHufiec 21-3 przy ul. Wro\u0144skiejHufiec 21-9 przy ul. Wro\u0144skiej",
+          "text": "W Zespole Szk\u00f3\u0142 Nr 2 w dalszym ci\u0105gu nauk\u0119 odbywali junacy Ochotniczych Hufc\u00f3w Pracy z nast\u0119puj\u0105cych Hufc\u00f3w: Hufiec 21-8 przy ul. Droga M\u0119czennik\u00f3w Majdanka, Hufiec 21-2 przy ul. Wojciechowskiej, Hufiec 21-3 przy ul. Wro\u0144skiej, Hufiec 21-9 przy ul. Wro\u0144skiej.",
           "images": [
           ]
         },
@@ -83,14 +83,14 @@ const history = ref(
           ]
         },
         {
-          "text": "Grudzie\u0144 1997 rok. Okres \u015awi\u0105t Bo\u017cego Narodzenia. Na zdj\u0119ciu dyrektor J\u00f3zef Szrubka z m\u0142odzie\u017c\u0105",
+          "text": "Grudzie\u0144 1997 rok. Okres \u015awi\u0105t Bo\u017cego Narodzenia. Na zdj\u0119ciu dyrektor J\u00f3zef Szrubka z m\u0142odzie\u017c\u0105.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/15_zs2.jpg",
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/16_zs2.jpg"
           ]
         },
         {
-          "text": "Nie ka\u017cdy z uczni\u00f3w mia\u0142 odpowiednie wzorce w domu rodzinnym, dlatego w okresie \u015bwi\u0105tecznym by\u0142y przygotowywane wystawy nakrycia sto\u0142\u00f3w",
+          "text": "Nie ka\u017cdy z uczni\u00f3w mia\u0142 odpowiednie wzorce w domu rodzinnym, dlatego w okresie \u015bwi\u0105tecznym by\u0142y przygotowywane wystawy nakrycia sto\u0142\u00f3w.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/12_zs2.jpg",
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/17_zs2.jpg",
@@ -98,20 +98,20 @@ const history = ref(
           ]
         },
         {
-          "text": "Uroczyste zako\u0144czenie roku szkolnego 1992/1993. M\u0142odzie\u017c przed wej\u015bciem do szko\u0142y",
+          "text": "Uroczyste zako\u0144czenie roku szkolnego 1992/1993. M\u0142odzie\u017c przed wej\u015bciem do szko\u0142y.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/19_zs2.jpg",
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/20_zs2.jpg"
           ]
         },
         {
-          "text": "Uroczyste zako\u0144czenie roku szkolnego 1994/1995",
+          "text": "Uroczyste zako\u0144czenie roku szkolnego 1994/1995.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/21_zs2.jpg"
           ]
         },
         {
-          "text": "Uroczyste zako\u0144czenie roku szkolnego 2001/2002. M\u0142odzie\u017c przygotowa\u0142a inscenizacj\u0119,a nast\u0119pnie pan dyrektor Henryk Mizura wr\u0119czy\u0142 wyr\u00f3\u017cnionym uczniom nagrody",
+          "text": "Uroczyste zako\u0144czenie roku szkolnego 2001/2002. M\u0142odzie\u017c przygotowa\u0142a inscenizacj\u0119,a nast\u0119pnie pan dyrektor Henryk Mizura wr\u0119czy\u0142 wyr\u00f3\u017cnionym uczniom nagrody.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/1_zs2.jpg",
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/2_zs2.jpg",
@@ -122,25 +122,25 @@ const history = ref(
           ]
         },
         {
-          "text": "Grono pedagogiczne",
+          "text": "Grono pedagogiczne.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/14_zs2.jpg"
           ]
         },
         {
-          "text": "Jesie\u0144 1998 rok. Zaj\u0119cia praktyczne na Osiedlu Maki",
+          "text": "Jesie\u0144 1998 rok. Zaj\u0119cia praktyczne na Osiedlu Maki.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/13_zs2.jpg"
           ]
         },
         {
-          "text": "M\u0142odzie\u017c kszta\u0142c\u0105ca si\u0119 w zawodzie ogrodnik prezentuje swoje prace",
+          "text": "M\u0142odzie\u017c kszta\u0142c\u0105ca si\u0119 w zawodzie ogrodnik prezentuje swoje prace.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/7_zs2.jpg"
           ]
         },
         {
-          "text": "Jesie\u0144 2000 rok. Apel na terenie przylegaj\u0105cym do szko\u0142y",
+          "text": "Jesie\u0144 2000 rok. Apel na terenie przylegaj\u0105cym do szko\u0142y.",
           "images": [
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/9_zs2.jpg",
             "../assets/schools/ZS6/1983-2002 Zespół Szkół nr 2/images/10_zs2.jpg",
