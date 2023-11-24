@@ -23,7 +23,7 @@ const history = ref(
       "parent_folder": "history_files\\ZS6\\1959-2002 Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych nr 1",
       "texts_with_images": [
         {
-          "text": "Kr\u00f3tka historia Zespo\u0142u Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie. W 1959 roku. Ministerstwo Budownictwa i Przemys\u0142u Materia\u0142\u00f3w Budowlanych powo\u0142a\u0142o Zasadnicz\u0105 Szko\u0142\u0119 Zawodow\u0105 dla Pracuj\u0105cych Przedsi\u0119biorstwa Rob\u00f3t Elektrycznych \u2013 Elektromonta\u017c w Lublinie. Szko\u0142a mie\u015bci\u0142a si\u0119 w budynku Szko\u0142y Podstawowej nr 32 przy ul. Przerwy-Tetmajera 2. Kszta\u0142ci\u0142a w zawodzie elektromontera dla potrzeb nowego zak\u0142adu. By\u0142a to szko\u0142a dokszta\u0142caj\u0105ca. Zaj\u0119cia warsztatowe odbywa\u0142y si\u0119 w zak\u0142adzie, a w szkole by\u0142o dokszta\u0142canie. W 1963 roku powo\u0142ano Technikum Mechaniczne dla Pracuj\u0105cych przy Przedsi\u0119biorstwie Rob\u00f3t Elektrycznych \u201eElektromonta\u017c\u201d w Lublinie. W 1974 roku dyrektor Wawnosek rozpocz\u0105\u0142.",
+          "text": "Kr\u00f3tka historia Zespo\u0142u Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie. W 1959 roku. Ministerstwo Budownictwa i Przemys\u0142u Materia\u0142\u00f3w Budowlanych powo\u0142a\u0142o Zasadnicz\u0105 Szko\u0142\u0119 Zawodow\u0105 dla Pracuj\u0105cych Przedsi\u0119biorstwa Rob\u00f3t Elektrycznych \u2013 Elektromonta\u017c w Lublinie.<br/> <br/> Szko\u0142a mie\u015bci\u0142a si\u0119 w budynku Szko\u0142y Podstawowej nr 32 przy ul. Przerwy-Tetmajera 2. Kszta\u0142ci\u0142a w zawodzie elektromontera dla potrzeb nowego zak\u0142adu. By\u0142a to szko\u0142a dokszta\u0142caj\u0105ca. Zaj\u0119cia warsztatowe odbywa\u0142y si\u0119 w zak\u0142adzie, a w szkole by\u0142o dokszta\u0142canie. W 1963 roku powo\u0142ano Technikum Mechaniczne dla Pracuj\u0105cych przy Przedsi\u0119biorstwie Rob\u00f3t Elektrycznych \u201eElektromonta\u017c\u201d w Lublinie.",
           "images": [
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/1_zsz1.webp",
             "../assets/schools/ZS6/1959-2002 Zespół Szkół Zawodowych nr 1/images/2_zsz1.webp"
@@ -35,7 +35,7 @@ const history = ref(
           ]
         },
         {
-          "text": "W 1979 roku powo\u0142ano Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych Przedsi\u0119biorstwa Rob\u00f3t Eletrycznych \u201eElektromonta\u017c\u201d w Lublinie. W sk\u0142ad zespo\u0142u wchodzi\u0142y szko\u0142y: <br> - Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych; <br>- Technikum Elektryczne dla Pracuj\u0105cych; <br> - \u015arednie Studium dla Pracuj\u0105cych.<br> Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych kszta\u0142ci\u0142a w nast\u0119puj\u0105ce kierunkach: elektromonter, \u015blusarz \u2013 spawacz.",
+          "text": "W 1979 roku powo\u0142ano Zesp\u00f3\u0142 Szk\u00f3\u0142 Zawodowych Przedsi\u0119biorstwa Rob\u00f3t Eletrycznych \u201eElektromonta\u017c\u201d w Lublinie. W sk\u0142ad zespo\u0142u wchodzi\u0142y szko\u0142y: <br> - Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych; <br>- Technikum Elektryczne dla Pracuj\u0105cych; <br> - \u015arednie Studium dla Pracuj\u0105cych.<br> <br/> Zasadnicza Szko\u0142a Zawodowa dla Pracuj\u0105cych kszta\u0142ci\u0142a w nast\u0119puj\u0105ce kierunkach: <br/>- elektromonter, <br/>- \u015blusarz <br/>- spawacz.",
           "images": [
           ]
         },
@@ -69,7 +69,7 @@ const history = ref(
           ]
         },
         {
-          "text": "Szko\u0142y wchodz\u0105ce w sk\u0142ad Zespo\u0142u Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie w 90-latach kszta\u0142ci\u0142y w nast\u0119puj\u0105cych zawodach: Zasadnicza Szko\u0142a Zawodowa nr 17: mechanik pojazd\u00f3w samochodowych, elektryk, blacharz samochodowy i elektromonter. Technikum Mechaniczno-Energetyczne nr 2 na podbudowie programowej szko\u0142y podstawowej: technik mechanik specjalno\u015bciach: energetyka cieplna i budowa maszyn, budowa i eksploatacja maszyn samochodowych. Technikum Mechaniczno-Elektryczne dla Doros\u0142ych: technik elektryk i technik mechanik.",
+          "text": "Szko\u0142y wchodz\u0105ce w sk\u0142ad Zespo\u0142u Szk\u00f3\u0142 Zawodowych nr 1 w Lublinie w 90-latach kszta\u0142ci\u0142y w nast\u0119puj\u0105cych zawodach: Zasadnicza Szko\u0142a Zawodowa nr 17: mechanik pojazd\u00f3w samochodowych, elektryk, blacharz samochodowy i elektromonter.<br/><br/>Technikum Mechaniczno-Energetyczne nr 2 na podbudowie programowej szko\u0142y podstawowej: technik mechanik specjalno\u015bciach: energetyka cieplna i budowa maszyn, budowa i eksploatacja maszyn samochodowych. Technikum Mechaniczno-Elektryczne dla Doros\u0142ych: technik elektryk i technik mechanik.",
           "images": [
           ]
         },

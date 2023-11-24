@@ -29,13 +29,13 @@ const history = ref(
           ]
         },
         {
-          "text": "Dyrektorem w dalszym ci\u0105gu pozostaje p. Henryk Frydecki, kt\u00f3ry rozpocz\u0105\u0142 kierownie szko\u0142\u0105 w 1954 roku. Szko\u0142a mie\u015bci\u0142a si\u0119 przy ul. J. D\u0142ugosza 10. Do ciekawych  dzia\u0142a\u0144 podejmowanych przez m\u0142odzie\u017c w tym okresie nale\u017cy inicjatywa budowy szkolnego o\u015brodka rekreacyjnego nad Jeziorem Piaseczno.  Artyku\u0142  Andrzeja Molika zamieszczony w Kurierze Lubelskim z dnia 3XII 1974 r.",
+          "text": "Dyrektorem w dalszym ci\u0105gu pozostaje p. Henryk Frydecki, kt\u00f3ry rozpocz\u0105\u0142 kierownie szko\u0142\u0105 w 1954 roku. Szko\u0142a mie\u015bci\u0142a si\u0119 przy ul. J. D\u0142ugosza 10. Do ciekawych  dzia\u0142a\u0144 podejmowanych przez m\u0142odzie\u017c w tym okresie nale\u017cy inicjatywa budowy szkolnego o\u015brodka rekreacyjnego nad Jeziorem Piaseczno.<br/><br/>Artyku\u0142  Andrzeja Molika zamieszczony w Kurierze Lubelskim z dnia 3 XII 1974 r.",
           "images": [
             "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 681.webp"
           ]
         },
         {
-          "text": "Z \u017cycia szko\u0142y - notatki z kronik Rozpocz\u0119cie roku szkolnego.",
+          "text": "Z \u017cycia szko\u0142y - notatki z kronik rozpocz\u0119cie roku szkolnego.",
           "images": [
             "../assets/schools/SnD/1973 - 1975 -  Zespół Szkół Zawodowych/images/zdj. 351.webp"
           ]

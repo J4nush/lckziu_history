@@ -32,17 +32,21 @@ const props = defineProps<{
   background-size: cover;
   transition: .3s ease-in;
   z-index: 0;
-  background-color: rgb(215, 215, 215);
+  /*background-color: #D8a059;*/
+  background-image: url('../assets/circle_bg.jpeg');
 }
 
 .circual-card:hover .background {
-  filter: brightness(80%);
-  transition: .3s ease-out;
-  box-shadow: 0 0 3em rgb(30, 115, 190);
+  filter: brightness(70%);
+  transition: .5s ease-out;
+  box-shadow: 0 0 3em #4f483e;
+}
+.circual-card:hover .school-name{
+
 }
 
 .school-name {
-color: rgb(30, 115, 190);
+color: #4f483e;
   text-wrap: avoid;
   z-index: 1;
 }

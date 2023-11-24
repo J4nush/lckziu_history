@@ -15,9 +15,11 @@
 main{
 
 }
-.marker-bg{
-    background-color: rgb(215, 215, 215);
+.marker-bg, .p-timeline .p-timeline-event-connector{
+    background-color: #D8a059 !important;
 }
 .marker-bg i{
-    color: rgb(30, 115, 190);
+    /*color: rgb(30, 115, 190);
+    color: #4f483e;*/
+    color: #fff;
 }

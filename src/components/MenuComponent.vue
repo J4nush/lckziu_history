@@ -20,14 +20,13 @@ const home = ref({
 <Menubar  class="pl-3 pt-2">
     <template #start>
         <span class="flex flex-row flex-wrap content-center items-center gap-3">
-          <div class="">
-        <img alt="logo" src="../assets/lckziu_logo.png" class="h-20 inline cursor-pointer" @click="router.push('/')"/>
+        <img alt="logo" src="../assets/logo_70.png" class="h-20 cursor-pointer ml-auto mr-auto" @click="router.push('/')"/>
 
-          </div>
-     <Breadcrumb :home="home" :model="items" class="h-fit">
+     <Breadcrumb :home="home" :model="items" class="h-fit text-[.9rem]">
        
         </Breadcrumb>
-    </span>
+
+        </span>
     </template>
     
     </Menubar>

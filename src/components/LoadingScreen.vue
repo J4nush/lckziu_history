@@ -6,7 +6,8 @@ import Image from 'primevue/image'
 <template>
 <div id="parchment" class="fixed w-[100vw] h-[100vh] bg-white flex content-center justify-center items-center z-50">
 
-  <Image src="/src/assets/lckziu_logo.png" class="w-[20%] aspect-auto "></Image>
+<!--  <Image src="/src/assets/lckziu_logo.png" class="w-[20%] aspect-auto "></Image>-->
+  <Image src="/src/assets/logo_70.png" class="w-[20%] aspect-auto "></Image>
 
 </div>
 

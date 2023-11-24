@@ -11,7 +11,7 @@ defineProps<{
 
 <template>
   <div class="p-3">
-    <Button label="Powrót" icon="pi pi-arrow-circle-left" severity="danger" size="small" outlined @click="() => { to?.length ? router.push(to) : router.go(-1)}"/>
+    <Button label="Powrót" icon="pi pi-arrow-circle-left" severity="danger" size="small"  @click="() => { to?.length ? router.push(to) : router.go(-1)}"/>
   </div>
 </template>
 

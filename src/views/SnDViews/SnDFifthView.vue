@@ -23,13 +23,13 @@ const history = ref(
       "parent_folder": "history_files\\SnD\\1993 - 2005 - Zesp\u00f3\u0142 Szk\u00f3\u0142 Mechanicznych",
       "texts_with_images": [
         {
-          "text": "W 1993 roku Zawodowe Centrum Kszta\u0142cenia Ustawicznego zosta\u0142o przekszta\u0142cone w Zesp\u00f3\u0142 Szk\u00f3\u0142 Mechanicznych przy ul. J. D\u0142ugosza 10. W roku szkolnym 1993/94 funkcj\u0119 dyrektora szko\u0142y pe\u0142ni\u0142 mgr S\u0142awomir W\u00f3jcik. Od wrze\u015bnia 1994 roku stanowisko dyrektora obj\u0105\u0142 mgr Tadeusz Caban. W roku 1999 dyrektorem zosta\u0142 mgr in\u017c.  Wies\u0142aw Ciorgo\u0144. Dyrektor Wies\u0142aw Ciorgo\u0144  i zast\u0119pcy -  Teresa Krasowska i Dariusz Winiarczyk. Funkcj\u0119 t\u0119 pe\u0142ni\u0142 do 2005 roku.",
+          "text": "W 1993 roku Zawodowe Centrum Kszta\u0142cenia Ustawicznego zosta\u0142o przekszta\u0142cone w Zesp\u00f3\u0142 Szk\u00f3\u0142 Mechanicznych przy ul. J. D\u0142ugosza 10. W roku szkolnym 1993/94 funkcj\u0119 dyrektora szko\u0142y pe\u0142ni\u0142 mgr S\u0142awomir W\u00f3jcik.<br/> <br/> Od wrze\u015bnia 1994 roku stanowisko dyrektora obj\u0105\u0142 mgr Tadeusz Caban. W roku 1999 dyrektorem zosta\u0142 mgr in\u017c.  Wies\u0142aw Ciorgo\u0144. Dyrektor Wies\u0142aw Ciorgo\u0144  i zast\u0119pcy -  Teresa Krasowska i Dariusz Winiarczyk. Funkcj\u0119 t\u0119 pe\u0142ni\u0142 do 2005 roku.",
           "images": [
             "../assets/schools/SnD/1993 - 2005 - Zespół Szkół Mechanicznych/images/zdj. 133.webp"
           ]
         },
         {
-          "text": "Z \u017cycia szko\u0142y - notatki z kronik - Rok szkolny 2001-2002.",
+          "text": "Z \u017cycia szko\u0142y - notatki z kronik.<br/> <br/> Rok szkolny 2001-2002.",
           "images": [
             "../assets/schools/SnD/1993 - 2005 - Zespół Szkół Mechanicznych/images/2001-2002/001.webp",
             "../assets/schools/SnD/1993 - 2005 - Zespół Szkół Mechanicznych/images/2001-2002/003.webp",

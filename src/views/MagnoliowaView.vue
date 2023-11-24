@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton.vue";
 import LoadingScreen from "@/components/LoadingScreen.vue";
 import globalState from "@/globalState";
 import TimelineComponent from "@/components/TimelineComponent.vue";
+import Dialog from "primevue/dialog";
+
 
 const router = useRouter()
 const home = ref({
@@ -38,7 +40,7 @@ const events = ref([
     {data: '1969-1971', to: '/magnoliowa/1969'},
     {data: '1971-1998', to: '/magnoliowa/1971'},
     {data: '1998-2014', to: '/magnoliowa/1998'},
-    {data: '2014+', to: '/magnoliowa/2014'}
+    {data: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014+', to: '/magnoliowa/2014'}
 ]);
 
 </script>
@@ -52,6 +54,8 @@ const events = ref([
       <LoadingScreen />
     </template>
   </transition>
+
+
     <MenuComponent :items="items"/>
     <BackButton to="/"/>
 

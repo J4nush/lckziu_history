@@ -6,7 +6,7 @@ import {useRouter} from 'vue-router'
 const router = useRouter()
 
 const props = defineProps<{
-  events?: Array<JSON>
+  events?: Array
 }>()
 
 const changeLoad = () => {
@@ -22,7 +22,7 @@ const goToView = (path)=> {
 </script>
 
 <template>
-  <Timeline class="xl:hidden " :value="events" layout="vertical" :pt="{
+  <Timeline class="xl:hidden hideOnXL" :value="events" layout="vertical" :pt="{
       content: {
         class: 'flex items-center ml-[-1rem]'
       },
@@ -36,8 +36,8 @@ const goToView = (path)=> {
       </div>
     </template>
     <template #content="slotProps" >
-      <p class="absolute text-white text-[1.5rem]" style="">
-        {{ slotProps.item.data }}
+      <p class="absolute text-white text-[1.5rem]" style="" v-html="slotProps.item.data">
+
       </p>
 
     </template>
@@ -53,8 +53,8 @@ const goToView = (path)=> {
       </div>
     </template>
     <template #content="slotProps" >
-      <p class="absolute text-white text-[1.5rem] min-w-[9ch]" style="">
-        {{ slotProps.item.data }}
+      <p class="absolute text-white text-[1.5rem] min-w-[9ch]" style="" v-html="slotProps.item.data">
+
       </p>
 
     </template>
@@ -62,5 +62,17 @@ const goToView = (path)=> {
 </template>
 
 <style scoped>
+@media (min-width: 1280px)
+{
+  .hideOnXL{
+    display: none !important;
+  }
+}
+@media (max-width: 1280px)
+{
+  .hidden{
+    display: none !important;
+  }
+}
 
 </style>

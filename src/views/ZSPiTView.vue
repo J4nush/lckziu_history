@@ -19,7 +19,7 @@ const history = ref(
       "parent_folder": "Zespół Szkół Pedagogicznych i Technicznych",
       "texts_with_images": [
         {
-          "text": "Zespół Szkół Pedagogicznych i Technicznych im. Komisji Edukacji Narodowej był jedyną w województwie lubelskim szkołą średnią i pomaturalną, kształcącą nauczycieli w różnych kierunkach zawodowych. W jego skład wchodziły: Pedagogiczne Studium Techniczne, Zasadnicza Szkoła Zawodowa nr 2 z warsztatami, Studium Wychowania Przedszkolnego oraz Policealne Studium Zawodowe. Siedzibą Szkoły był budynek przy ul. Krzywej 6. Został on wybudowany na kilka lat przed wybuchem II wojny światowej z funduszy, jakie ówczesne władze kościelne zebrały od ludności miasta Lublina oraz regionu lubelskiego.",
+          "text": "Zespół Szkół Pedagogicznych i Technicznych im. Komisji Edukacji Narodowej był jedyną w województwie lubelskim szkołą średnią i pomaturalną, kształcącą nauczycieli w różnych kierunkach zawodowych. W jego skład wchodziły: Pedagogiczne Studium Techniczne, Zasadnicza Szkoła Zawodowa nr 2 z warsztatami, Studium Wychowania Przedszkolnego oraz Policealne Studium Zawodowe.<br/><br/>Siedzibą Szkoły był budynek przy ul. Krzywej 6. Został on wybudowany na kilka lat przed wybuchem II wojny światowej z funduszy, jakie ówczesne władze kościelne zebrały od ludności miasta Lublina oraz regionu lubelskiego.",
           "images": [
           ]
         },
@@ -29,7 +29,7 @@ const history = ref(
           ]
         },
         {
-          "text": "W maju 1970 r. szkoła otrzymała gmach przy ul. Krzywej 6. Szkoła odziedziczyła również warsztaty szkolne wraz z kadrą pracowniczą po Zasadniczej Szkole Zawodowej nr 2, którą przeniesiono z ul. 1-go Maja na ul. Krzywą. Jednocześnie ze zmianą lokalu, nastąpiła zmiana nazwy szkoły. Dotychczasowe Technikum Przemysłowo-Pedagogiczne zostało przemianowane na Pedagogiczną Szkołę Techniczną.",
+          "text": "W maju 1970 r. szkoła otrzymała gmach przy ul. Krzywej 6. Szkoła odziedziczyła również warsztaty szkolne wraz z kadrą pracowniczą po Zasadniczej Szkole Zawodowej nr 2, którą przeniesiono z ul. 1-go Maja na ul. Krzywą.<br/><br/>Jednocześnie ze zmianą lokalu, nastąpiła zmiana nazwy szkoły. Dotychczasowe Technikum Przemysłowo-Pedagogiczne zostało przemianowane na Pedagogiczną Szkołę Techniczną.",
           "images": [
             "../assets/schools/ZSTiP/images/zdj. 636.webp"
           ]
@@ -47,7 +47,7 @@ const history = ref(
           ]
         },
         {
-          "text": "W roku szkolnym 1992/93 na podstawie decyzji Ministerstwa Edukacji Narodowej o likwidacji Pedagogicznych Studiów Technicznych (PST) oraz Studiów Nauczyczcielskich (SN), zaprzestano naboru do klas pierwszych Pedagogicznego Studium Technicznego. Funkcjonujące dotychczas w ramach ZSPiT Studium Wychowania Przedszkolnego z dniem 1 września 1990 r. zostało przemianowane na Liceum Ogólnokształcące nr 19. Pedagogiczne Studium Techniczne pozostawiono do wygaśnięcia, ale zostało przeniesione do Zespołu Szkół Mechaniczno-Energetycznych przy ul. Magnoliowej 8 razem z dyr.Andrzejem Głowackim i częścią kadry pedagogicznej.",
+          "text": "W roku szkolnym 1992/93 na podstawie decyzji Ministerstwa Edukacji Narodowej o likwidacji Pedagogicznych Studiów Technicznych (PST) oraz Studiów Nauczyczcielskich (SN), zaprzestano naboru do klas pierwszych Pedagogicznego Studium Technicznego.<br/><br/>Funkcjonujące dotychczas w ramach ZSPiT Studium Wychowania Przedszkolnego z dniem 1 września 1990 r. zostało przemianowane na Liceum Ogólnokształcące nr 19. Pedagogiczne Studium Techniczne pozostawiono do wygaśnięcia, ale zostało przeniesione do Zespołu Szkół Mechaniczno-Energetycznych przy ul. Magnoliowej 8 razem z dyr.Andrzejem Głowackim i częścią kadry pedagogicznej.",
           "images": [
             "../assets/schools/ZSTiP/images/zdj. 569.webp"
           ]
