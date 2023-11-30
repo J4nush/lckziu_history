@@ -59,12 +59,23 @@ const showModal = ref(true);
   </Dialog>
     <MenuComponent :items="[]"/>
         <main>
-          <div class="hidden xl:flex wrapper flex-row gap-10 justify-center items-center w-100 p-4 min-h-[80vh]">
-            <CircleComponent :small="true" schoolName="Zespół Szkół Pedagogicznych <br/>i Technicznych" :image="`src/assets/zdpt_thumb.jpg`" @click="goToZSPiT"/>
-            <CircleComponent :small="true" schoolName="Zespół Szkół przy ulicy Długosza" :image="`src/assets/dlugosza_thumb.jpg`" @click="goToSnD"/>
-            <CircleComponent :small="true" schoolName="Zespół Szkół nr 6" :image="`src/assets/dlugosza_thumb.jpg`" @click="goToZS6"/>
-            <CircleComponent :small="false" :image="`src/assets/lckziu_thumb.jpg`" school-name="Szkoła przy ulicy Magnoliowej 8" @click="goToMagnolka"/>
+          <div class="hidden xl:flex wrapper flex-col gap-10 justify-center items-center w-100 p-4">
+            <div class="flex items-center justify-center">
+              <CircleComponent :small="true" schoolName="Zespół Szkół przy ulicy Długosza" :image="`src/assets/dlugosza_thumb.jpg`" @click="goToSnD"/>
+            </div>
+            <div class="flex flex-row justify-center items-center gap-10">
+              <CircleComponent :small="true" schoolName="Zespół Szkół Pedagogicznych <br/>i Technicznych" :image="`src/assets/zdpt_thumb.jpg`" @click="goToZSPiT"/>
+              <CircleComponent :small="false" :image="`src/assets/lckziu_thumb.jpg`" school-name="Szkoła przy ulicy Magnoliowej 8" @click="goToMagnolka"/>
+              <CircleComponent :small="true" schoolName="Zespół Szkół nr 6" :image="`src/assets/dlugosza_thumb.jpg`" @click="goToZS6"/>
+            </div>
           </div>
+
+<!--          <div class="hidden xl:flex wrapper flex-row gap-10 justify-center items-center w-100 p-4 min-h-[80vh]">-->
+<!--            <CircleComponent :small="true" schoolName="Zespół Szkół Pedagogicznych <br/>i Technicznych" :image="`src/assets/zdpt_thumb.jpg`" @click="goToZSPiT"/>-->
+<!--            <CircleComponent :small="true" schoolName="Zespół Szkół przy ulicy Długosza" :image="`src/assets/dlugosza_thumb.jpg`" @click="goToSnD"/>-->
+<!--            <CircleComponent :small="true" schoolName="Zespół Szkół nr 6" :image="`src/assets/dlugosza_thumb.jpg`" @click="goToZS6"/>-->
+<!--            <CircleComponent :small="false" :image="`src/assets/lckziu_thumb.jpg`" school-name="Szkoła przy ulicy Magnoliowej 8" @click="goToMagnolka"/>-->
+<!--          </div>-->
           <div class="xl:hidden wrapper flex flex-col gap-2 justify-center w-100 p-4">
             <div class="flex flex-row justify-center items-center">
               <CircleComponent :small="false" :image="`src/assets/lckziu_thumb.jpg`" school-name="Szkoła przy ulicy Magnoliowej 8" @click="goToMagnolka"/>

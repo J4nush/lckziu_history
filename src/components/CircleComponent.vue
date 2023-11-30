@@ -1,5 +1,5 @@
 <template >
-<div :class="small ? 'h-[25vh]' : 'h-[35vh]'" class="aspect-square rounded-full circual-card flex items-center justify-center
+<div :class="small ? 'h-[25vh]' : 'h-[40vh]'" class="aspect-square rounded-full circual-card flex items-center justify-center
  text-center"
     >
 <!--  <div class="background rounded-full" :style="'background-image: linear-gradient( rgba(30, 115, 190, .8), rgba(30, 115, 190, .8)), url('+image+')'"></div>-->
