@@ -37,13 +37,13 @@ const history = ref(
           ]
         },
         {
-          "text": "1961 r. -  zarz\u0105dzeniem Ministerstwa O\u015bwiaty szko\u0142a otrzyma\u0142a nazw\u0119 Technikum Chemiczne Nr 2, a nauczan\u0105 specjalno\u015bci\u0105 by\u0142o gazownictwo - ( ",
+          "text": "1961 r. - zarz\u0105dzeniem Ministerstwa O\u015bwiaty szko\u0142a otrzyma\u0142a nazw\u0119 Technikum Chemiczne Nr 2, a nauczan\u0105 specjalno\u015bci\u0105 by\u0142o gazownictwo",
           "images": [
             "../assets/schools/SnM/1959-1969 - Technikum Chemiczne/images/zdj. 171.webp"
           ]
         },
         {
-          "text": "). Najlepsi uczniowie po I semestrze w roku szkolnym 1962/63 \u2013.",
+          "text": "Najlepsi uczniowie po I semestrze w roku szkolnym 1962/63",
           "images": [
             "../assets/schools/SnM/1959-1969 - Technikum Chemiczne/images/zdj. 566.webp"
           ]

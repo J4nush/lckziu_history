@@ -2,34 +2,47 @@
 import { RouterLink, RouterView, useRouter, useRoute } from 'vue-router'
 import {onMounted, ref, watch} from "vue";
 
-// const router = useRouter()
-// const route = useRoute()
-// const timeoutId = ref()
-//
-//
-//
-// onMounted(() => {
-//   resetTimer();
-//   window.addEventListener('mousemove', resetTimer);
-//   window.addEventListener('keypress', resetTimer);
-// });
-// const redirectToHome = () => {
-//   if (route.path !== '/') {
-//     router.push('/');
-//   }
-// };
-// const resetTimer = () => {
-//   clearTimeout(timeoutId.value);
-//   timeoutId.value = setTimeout(redirectToHome, 1800000); // 3 minuty = 180000 milisekund
-// };
-//
-// watch(() => route.path, (newPath) => {
-//   if (newPath === '/') {
-//     clearTimeout(timeoutId.value);
-//   }
-//   resetTimer();
-//
-// });
+const router = useRouter()
+const route = useRoute()
+const timeoutId = ref()
+
+const handleUserActivity = () => {
+  console.log("user")
+  if (route.path !== '/') {
+    resetTimer();
+  }
+};
+
+onMounted(() => {
+  resetTimer();
+  window.addEventListener('mousemove', handleUserActivity);
+  window.addEventListener('keypress', handleUserActivity);
+});
+const redirectToHome = () => {
+  if (route.path !== '/') {
+    router.push('/');
+  }
+};
+const checkInactivity = () => {
+  if (route.path !== '/') {
+    redirectToHome();
+  }
+};
+const resetTimer = () => {
+  console.log("reset")
+  clearTimeout(timeoutId.value);
+  if (route.path !== '/') {
+    timeoutId.value = setTimeout(checkInactivity, 240000); // 3 minuty = 180000 milisekund  }
+  }
+}
+
+watch(() => route.path, (newPath) => {
+  if (newPath === '/') {
+    clearTimeout(timeoutId.value);
+  }
+  resetTimer();
+
+});
 
 
 </script>

@@ -10,7 +10,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="p-3">
+  <div class="p-3 noselect">
     <Button label="Powrót" icon="pi pi-arrow-circle-left" severity="danger" size="small"  @click="() => { to?.length ? router.push(to) : router.go(-1)}"/>
   </div>
 </template>

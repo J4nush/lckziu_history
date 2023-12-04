@@ -59,7 +59,7 @@ const history = ref(
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 63.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 64.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 579.webp",
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 580webp",
+            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 580.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 92.webp"
           ]
         },
@@ -68,7 +68,7 @@ const history = ref(
           "images": [
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 66.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 67.webp",
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 68,webp",
+            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 68.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 69.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 70.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 71.webp",
@@ -228,7 +228,7 @@ const history = ref(
           "text": "Magnolkowe, Miko\u0142ajki w latach 2021/2022 oraz 2021/2022",
           "images": [
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X85.webp",
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.x86.webp"
+            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X86.webp"
           ]
         },
         {
@@ -250,7 +250,6 @@ const history = ref(
           "images": [
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 431.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 432.webp",
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 422.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 434.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 435.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 436.webp",
@@ -338,7 +337,7 @@ const history = ref(
           ]
         },
         {
-          "text": "Z okazji walentynek 10 lutego 2023r. przedstawiony zosta\u0142 monta\u017c s\u0142owno-muzyczny \"Mi\u0119dzykulturowe dialogi walentynkowe. Co w sercu piszczy\u2026\". Uczniowie zaprezentowali wyb\u00f3r powsta\u0142ych w kilku j\u0119zykach wierszy i piosenek, kt\u00f3rych motywem przewodnim by\u0142a mi\u0142o\u015b\u0107. Z utwor\u00f3w, takich jak: \"Another love\"T. Odella, \"Rozmowa liryczna\"K. I. Ga\u0142czy\u0144skiego, \"Love me tender\"E. Presleya, \"Anmutiger Vertrag\"C. Morgensterna, \"Wszelka liczba\"T. R\u00f3\u017cyckiego, \"Chcia\u0142bym umrze\u0107 z mi\u0142o\u015bci\"Myslovitz, \"Odk\u0105d ci\u0119 pozna\u0142am\u2026\"H. Po\u015bwiatowskiej czy \"Andrzeli\"Nocnego Kochanka, dowiedzieli\u015bmy si\u0119, jakie s\u0105 fazy, objawy i skutki bycia zakochanym. Monta\u017c przygotowa\u0142y: p. Marta Gawe\u0142, p. Maria Helman, p Dorota Kr\u00f3l i p. Urszula Klucha",
+          "text": "Z okazji walentynek 10 lutego 2023r. przedstawiony zosta\u0142 monta\u017c s\u0142owno-muzyczny \"Mi\u0119dzykulturowe dialogi walentynkowe. Co w sercu piszczy\u2026\". Uczniowie zaprezentowali wyb\u00f3r powsta\u0142ych w kilku j\u0119zykach wierszy i piosenek, kt\u00f3rych motywem przewodnim by\u0142a mi\u0142o\u015b\u0107. Z utwor\u00f3w, takich jak: \"Another love\"T. Odella, \"Rozmowa liryczna\"K. I. Ga\u0142czy\u0144skiego, \"Love me tender\"E. Presleya, \"Anmutiger Vertrag\"C. Morgensterna, \"Wszelka liczba\"T. R\u00f3\u017cyckiego, \"Chcia\u0142bym umrze\u0107 z mi\u0142o\u015bci\"Myslovitz, \"Odk\u0105d ci\u0119 pozna\u0142am\u2026\"H. Po\u015bwiatowskiej czy \"Andrzeli\" Nocnego Kochanka, dowiedzieli\u015bmy si\u0119, jakie s\u0105 fazy, objawy i skutki bycia zakochanym. Monta\u017c przygotowa\u0142y: p. Marta Gawe\u0142, p. Maria Helman, p Dorota Kr\u00f3l i p. Urszula Klucha",
           "images": [
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X57.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj.X58.webp",
@@ -370,7 +369,7 @@ const history = ref(
           ]
         },
         {
-          "text": "Wyjazdy integracyjne klas ,wycieczki",
+          "text": "Wyjazdy integracyjne klas, wycieczki",
           "images": []
         },
         {
@@ -626,7 +625,6 @@ const history = ref(
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 524.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 525.webp",
             "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 526.webp",
-            "../assets/schools/SnM/od 2014  -  Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego/images/zdj. 527.webp"
           ]
         },
         {

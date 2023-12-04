@@ -58,7 +58,7 @@ const events = ref([
     <MenuComponent :items="items"/>
     <BackButton to="/"/>
 
-  <main class="flex justify-center align-center pl-28 pr-28" style="min-height: 70vh;">
+  <main class="flex justify-center align-center pl-28 pr-28 noselect" style="min-height: 70vh;">
     <TimelineComponent :events="events" />
   </main>
 </template>

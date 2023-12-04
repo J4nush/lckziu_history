@@ -3,12 +3,25 @@ import Carousel from 'primevue/carousel';
 import Galleria from "primevue/galleria";
 import {onMounted, ref, toRef, watch} from 'vue'
 import Image from 'primevue/image';
+import LoadingImageComponent from "@/components/LoadingImageComponent.vue";
 const props = defineProps<{
   items?: Array
 }>()
 
+const imagesLoaded = ref(props.items.map(item => item.images.map(() => false)));
 
+const updateImageLoaded = (itemIndex: number, imageIndex: number) => {
+  imagesLoaded.value[itemIndex][imageIndex] = true;
+};
+const activeIndex = ref(0)
 const emit = defineEmits(['loaded'])
+const onPageChange = (newPage) => {
+  // Tutaj możesz dodać logikę, która ma zostać wykonana przy zmianie strony
+  activeIndex.value = 0
+  console.log("Aktualna strona:", newPage);
+};
+
+
 onMounted(()=>{
   setTimeout(function() {
     emit('loaded')
@@ -21,18 +34,20 @@ onMounted(()=>{
 <template>
 <!--  {{items}}-->
   <Carousel :value="items" :numVisible="1" :numScroll="1"
-             containerClass="w-full" contentClass="">
+             containerClass="w-full" contentClass="" @update:page="onPageChange">
 
     <template #item="slotProps">
-      <div class="flex flex-col pt-5 xl:pt-0 xl:flex-row min-h-[75vh] max-h-[90vh] h-full">
+      <div class="flex flex-col pt-5 xl:pt-0 xl:flex-row min-h-[75vh] xl:max-h-[90vh] h-full">
       <div :class="slotProps.data.images.length ? 'basis-1/2 border-[#ccc] pl-5 pr-5' : ''" class="text-center text-white flex justify-center items-center pb-5 xl:pb-0 pl-10 pr-10 w-full">
         <span class="w-full" style="font-size: larger" v-html="slotProps.data.text">
 
         </span>
       </div>
-      <div  v-if="slotProps.data.images.length" class="basis-1/2 max-h-[70vh] h-full flex  aspect-auto justify-center" :class="slotProps.data.images.length == 1 ? 'items-center pl-5 pr-5' : ''">
-        <Galleria aathumbnailsPosition="top" :circular="true" :value="slotProps.data.images"  :numVisible="slotProps.data.images.length <= 4 ? slotProps.data.images.length : 4 " v-if="slotProps.data.images.length > 1"
+      <div  v-if="slotProps.data.images.length" class="basis-1/2 max-h-[70vh] h-full flex  aspect-auto justify-center noselect" :class="slotProps.data.images.length == 1 ? 'items-center pl-5 pr-5' : ''">
+        <Galleria aathumbnailsPosition="top" :circular="true" :value="slotProps.data.images"
+                  :numVisible="slotProps.data.images.length <= 4 ? slotProps.data.images.length : 4 " v-if="slotProps.data.images.length > 1"
                   containerStyle="max-width: 80%"
+                  v-model:activeIndex="activeIndex"
                   :showThumbnails="false"
                   indicatorsPosition="top"
                   :showIndicators="true"
@@ -56,13 +71,18 @@ onMounted(()=>{
                   }"
         >
           <template #item="imagesProps">
-<!--            {{imagesProps.item}}-->
-            <Image  class="aspect-auto max-h-[50vh] z-0" :src="imagesProps.item.replace(/ /g, '%20').replace('..', '/src')"
+<!--            {{imagesLoaded[slotProps.index][activeIndex]}}-->
+<!--            {{activeIndex}}-->
+            <div v-if="!imagesLoaded[slotProps.index][activeIndex]" class="aspect-auto h-[50vh] z-0">
+              <LoadingImageComponent />
+            </div>
+            <Image  class="aspect-auto max-h-[50vh] z-0" :src="imagesProps.item?.replace(/ /g, '%20').replace('..', '/src')"
                     :pt="{
               image:{class: 'max-h-[50vh]'},
               toolbar:{class:'z-10'}
                     }"
-                    preview />
+                    preview  @load="() => updateImageLoaded(slotProps.index, activeIndex)"
+                    v-show="imagesLoaded[slotProps.index][activeIndex]"/>
           </template>
 <!--          <template #thumbnail="imagesProps" v-if="slotProps.data.images.length > 1">-->
 <!--            <img class="aspect-auto max-h-[10vh]" :src="imagesProps.item.replace(/ /g, '%20').replace('..', '/src')"  />-->

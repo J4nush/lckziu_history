@@ -37,15 +37,27 @@ const showModal = ref(true);
       <LoadingScreen />
     </template>
   </transition>
-  <Dialog v-if="!globalState.loading" v-model:visible="showModal" modal :style="{ width: '80vw', }" class="addPaperBackground text-white" :closable="false">
+  <Dialog v-if="!globalState.loading" v-model:visible="showModal" modal :style="{ width: '80vw', }" class="addPaperBackground text-white noselect" :closable="false">
     <template #header>
       <h1>70-lecie <b>LCKZiU</b></h1>
     </template>
     <p>
-      dsadasdfsdohsadfh iwqudibwqih
+      Historia  Lubelskiego Centrum Kształcenia Zawodowego i Ustawicznego i szkół, które weszły w jego skład, została opracowana na podstawie: kronik szkolnych, informacji zamieszczanych na stronie internetowej szkoły, strony inernetowej PST, materiałów dostarczanych przez nauczycieli i publikacji "Lubelskie Centrum Edukacji Zawodowej" wydanej z okazji 50-lecia szkoły obchodzonego w 2003 roku.
+    </p>
+    <p>
+      <br/>
+      Opracowali:<br/><br/>
+      Uczniowie: <br/>
+      Jakub Wójciak, Oleksander Sosnovskyi<br/> <br/>
+      Nauczyciele: <br/>
+      Urszula Klucha, Maria Helman, Dorota Król, Beata Barchacka (opracowanie merytoryczne)<br/>
+      Michał Ziółek (programowanie aplikacji)<br/>
+      Natalia Plakowska (projekt UI)<br/>
+      Cezary Wawszczak (wdrożenie aplikacji).
+
     </p>
     <template #footer>
-      <div class="w-full flex flex-row items-center content-center text-center">
+      <div class="w-full flex flex-row items-center content-center text-center noselect">
         <span class="m-auto">
         <Button class="ml-auto mr-auto" icon="pi pi-eye" severity="info" label="Zacznij oglądać" @click="()=>{showModal = false}" :pt="{
           root: {
@@ -58,7 +70,7 @@ const showModal = ref(true);
     </template>
   </Dialog>
     <MenuComponent :items="[]"/>
-        <main>
+        <main class="noselect">
           <div class="hidden xl:flex wrapper flex-col gap-10 justify-center items-center w-100 p-4">
             <div class="flex items-center justify-center">
               <CircleComponent :small="true" schoolName="Zespół Szkół przy ulicy Długosza" :image="`src/assets/dlugosza_thumb.jpg`" @click="goToSnD"/>
