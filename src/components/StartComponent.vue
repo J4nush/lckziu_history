@@ -50,9 +50,9 @@ const showModal = ref(true);
       Uczniowie: <br/>
       Jakub Wójciak, Oleksander Sosnovskyi<br/> <br/>
       Nauczyciele: <br/>
-      Urszula Klucha, Maria Helman, Dorota Król, Beata Barchacka (opracowanie merytoryczne)<br/>
+      Urszula Klucha, Maria Helman, Dorota Król, Beata Barchacka, Piotr Kajlewicz (opracowanie merytoryczne)<br/>
       Michał Ziółek (programowanie aplikacji)<br/>
-      Natalia Plakowska (projekt UI)<br/>
+      Natalia Plackowska (projekt UI)<br/>
       Cezary Wawszczak (wdrożenie aplikacji).
 
     </p>
